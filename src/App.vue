@@ -18,11 +18,15 @@
 
 
 </style>
+
 <script>
   import NavHeader from './components/NavHeader.vue';
-  import Layout from './Layouts/main.vue';
+  import Layout from './layouts/main.vue';
 
   export default {
-    components: { NavHeader, Layout },
+    components: {
+      NavHeader,
+      Layout,
+    },
   };
 </script>

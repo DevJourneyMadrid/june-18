@@ -1,8 +1,11 @@
 <template>
-  <div class="container">
-    <h1>container</h1>
+  <div class="page-container">
     <slot name="main"></slot>
   </div>
 </template>
+
 <script></script>
-<style lang="stylus"></style>
+
+<style lang="stylus">
+
+</style>
