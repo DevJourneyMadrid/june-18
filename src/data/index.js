@@ -6,50 +6,24 @@ const scheduleInfo = [
     date: '09/06/2018', // DD/MM/YYYY
     tracks: [
       {
-        displayName: 'Auditorio',
-        max: 300,
+        displayName: 'Demo Corner',
+        max: 20,
         items: [
-          {
-            type: 1,
-            content: {
-              title: 'Apertura de puertas',
-              description: 'Entrada, bienvenida y desayuno',
-            },
-            time: {
-              start: {
-                hour: '09',
-                min: '45',
-              },
-              end: {
-                hour: '10',
-                min: '30',
-              },
-            },
-          },
           {
             type: 2,
             content: {
-              title: 'Stack Overflow en español: No todos hablan inglés',
-              description: 'Mientras el desarrollo de código se hace principalmente en inglés, muchos de los ' +
-              'desarrolladores no dependen del inglés en la mayoría de sus conversaciones. Ven a aprender como una ' +
-              'comunidad de desarrolladores en tu lengua natal puede hacer del internet un lugar mejor. ¡Solamente ' +
-              'necesitamos que se presente!',
-              tags: [ 'StackOverflow', 'Comunidades' ],
+              title: 'NodeSchool Madrid',
+              description: 'Taller de Node.js y JavaScript. Paso a paso siguiendo tutoriales',
+              tags: [ 'Javascript', 'NodeJS' ],
               speaker: {
-                name: 'Juan Garza',
-                position: 'Gerente, Equipo de Comunidades Internacionales',
-                bio: 'Juan Garza nunca pensó que el tema de Community Management hubiera sido su carrera. Juan empezó ' +
-                'su jornada profesional estudiando ingeniería eléctrica pero se dio cuenta que eso no era su verdadero ' +
-                'llamamiento. Él se titulo con un B.S. en psicología con especialidad en biología. Su amor en ayudar a ' +
-                'la gente lo guió a emprender la carrera de maestro de matemáticas, ciencias, y español. Al pasar ' +
-                'algunos años en eso, descubrió el mundo de Community Management donde ha pasado 12 años. Él ahora ' +
-                'considera que este campo le provee una oportunidad para servirle a una audiencia global. Juan es el ' +
-                'gerente del equipo internacional de Stack Overflow donde se ocupa de mantener los sitios para los ' +
-                'miembros que hablan el ruso, portugués, japonés, o español principalmente.',
-                image: 'jgarza.jpg',
+                name: 'Carlos Azaustre',
+                position: 'Desarrollador FullStack @Chefly',
+                bio: 'Desarrollador fullstack en JavaScript, cofundador de Chefly y formador en tecnologías web',
+                image: 'azaustre.jpg',
                 socialLinks: {
-                  twitter: 'https://twitter.com/esStackOverflow',
-                  website: 'https://es.stackoverflow.com/',
+                  twitter: 'https://twitter.com/carlosazaustre',
+                  linkedin: 'https://www.linkedin.com/in/carlosazaustre/',
+                  website: 'https://chefly.co',
                 },
               },
             },
