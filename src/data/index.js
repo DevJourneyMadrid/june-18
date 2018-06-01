@@ -46,8 +46,11 @@ const scheduleInfo = [
                 'considera que este campo le provee una oportunidad para servirle a una audiencia global. Juan es el ' +
                 'gerente del equipo internacional de Stack Overflow donde se ocupa de mantener los sitios para los ' +
                 'miembros que hablan el ruso, portugués, japonés, o español principalmente.',
-                image: 'juanGarza.png',
-                socialLinks: { twitter: '' },
+                image: 'jgarza.jpg',
+                socialLinks: {
+                  twitter: 'https://twitter.com/esStackOverflow',
+                  website: 'https://es.stackoverflow.com/',
+                },
               },
             },
             time: {
@@ -74,8 +77,12 @@ const scheduleInfo = [
                 'heart of APIs lifecycle: development, testing, deployment. I manage product management, product marketing ' +
                 'as well as analysts relationship. Previously, I was working for WSO2 as VP of Product Strategy and Technical ' +
                 'Evangelist for WSO2\'s open source platform, mainly in Europe.',
-                image: 'isaMauny.png',
-                socialLinks: { twitter: '', linkedin: 'https://www.linkedin.com/in/isamauny/' },
+                image: 'isa.jpg',
+                socialLinks: {
+                  twitter: 'https://twitter.com/isamauny',
+                  linkedin: 'https://www.linkedin.com/in/isamauny/',
+                  website: 'https://www.42crunch.com/',
+                },
               },
             },
             time: {
@@ -99,11 +106,11 @@ const scheduleInfo = [
                 name: 'Enrique García Navalón',
                 position: 'Lead Engineer en BICG',
                 bio: 'Bio',
-                image: 'garciaNavalon.png',
+                image: 'garcianavalon.jpg',
                 socialLinks: {
                   twitter: 'https://twitter.com/garcianavalon',
                   linkedin: 'https://www.linkedin.com/in/garcianavalon/',
-                  github: '',
+                  github: 'https://github.com/garcianavalon',
                 },
               },
             },
