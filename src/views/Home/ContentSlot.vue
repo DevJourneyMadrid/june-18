@@ -14,10 +14,18 @@
             <h6 class="name">{{ el.content.speaker.name }}</h6>
             <div class="social-links">
               <ul class="list-inline">
-                <li class="list-inline-item">
-                  <a href="#">
+                <li class="list-inline-item" v-for="(value, key, idx) in socialLinks" :key="idx">
+                <a :href="value">
+                  <template v-if="key === 'github'">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                  </template>
+                  <template v-if="key === 'twitter'">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </template>
+                  <template v-if="key === 'linkedin'">
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
-                  </a>
+                  </template>
+                </a>
                 </li>
               </ul>
             </div>
@@ -50,6 +58,9 @@
     computed: {
       setCLass() {
         return this.el.type === 1 ? 'custom-hover-1' : 'custom-hover-2';
+      },
+      socialLinks() {
+        return this.el.content.speaker.socialLinks;
       },
     },
   };

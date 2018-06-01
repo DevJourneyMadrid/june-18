@@ -47,7 +47,7 @@ const scheduleInfo = [
                 'gerente del equipo internacional de Stack Overflow donde se ocupa de mantener los sitios para los ' +
                 'miembros que hablan el ruso, portugués, japonés, o español principalmente.',
                 image: 'juanGarza.png',
-                socialLinks: { twitter: '', linkedin: '', github: '' },
+                socialLinks: { twitter: '' },
               },
             },
             time: {
@@ -75,7 +75,7 @@ const scheduleInfo = [
                 'as well as analysts relationship. Previously, I was working for WSO2 as VP of Product Strategy and Technical ' +
                 'Evangelist for WSO2\'s open source platform, mainly in Europe.',
                 image: 'isaMauny.png',
-                socialLinks: { twitter: '', linkedin: 'https://www.linkedin.com/in/isamauny/', github: '' },
+                socialLinks: { twitter: '', linkedin: 'https://www.linkedin.com/in/isamauny/' },
               },
             },
             time: {
