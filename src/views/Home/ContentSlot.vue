@@ -1,15 +1,24 @@
 <template>
   <td :class="setCLass">
-    <h5>{{ el.content.title }}</h5>
     <template v-if="el.type === 1">
+      <h5>{{ el.content.title }}</h5>
       <p>{{ el.content.description }}</p>
     </template>
     <template v-else>
       <div class="cont">
         <div class="block-image">
-          <img src="@/assets/img/speakers/speakerName.png">
+          <div class="img">
+            <img src="@/assets/img/speakers/speakerName.png">
+          </div>
+          <div class="speaker-info">
+            <h6 class="name">{{ el.content.speaker.name }}</h6>
+            <div class="tags">
+              <span class="badge badge-pill badge-primary">Primary</span>
+            </div>
+          </div>
         </div>
         <div class="block-content">
+          <h6>{{ el.content.title }}</h6>
           <p>{{ el.content.description }}</p>
         </div>
       </div>
@@ -52,10 +61,13 @@
 
   .cont
     display grid
-    grid-template-columns 1fr 4fr
+    grid-template-columns 150px 1fr
     .block-image
-      img
-        width 50px
+      margin-right 12px
+      .img
+        img
+          width 100%
+          height 100%
 
 
 </style>

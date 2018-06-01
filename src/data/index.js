@@ -1,9 +1,8 @@
 // Types: 1 & 2
 // Type 1 is a moment like welcome or networking
 // Type 2 is when a speaker has time to speak
-export const scheduleInfo = [
+const scheduleInfo = [
   {
-
     date: '09/06/2018', // DD/MM/YYYY
     tracks: [
       {
@@ -13,8 +12,8 @@ export const scheduleInfo = [
           {
             type: 1,
             content: {
-              title: 'Titulo charla',
-              description: 'Descripcion charla',
+              title: 'Apertura de puertas',
+              description: 'Entrada, bienvenida y desayuno',
             },
             time: {
               start: {
@@ -30,9 +29,26 @@ export const scheduleInfo = [
           {
             type: 2,
             content: {
-              title: 'Titulo charla',
-              description: 'Descripcion charla',
-              speakerId: 1,
+              title: 'Stack Overflow en español: No todos hablan inglés',
+              description: 'Mientras el desarrollo de código se hace principalmente en inglés, muchos de los ' +
+              'desarrolladores no dependen del inglés en la mayoría de sus conversaciones. Ven a aprender como una ' +
+              'comunidad de desarrolladores en tu lengua natal puede hacer del internet un lugar mejor. ¡Solamente ' +
+              'necesitamos que se presente!',
+              tags: [ 'StackOverflow', 'Comunidades' ],
+              speaker: {
+                name: 'Juan Garza',
+                position: 'Gerente, Equipo de Comunidades Internacionales',
+                bio: 'Juan Garza nunca pensó que el tema de Community Management hubiera sido su carrera. Juan empezó ' +
+                'su jornada profesional estudiando ingeniería eléctrica pero se dio cuenta que eso no era su verdadero ' +
+                'llamamiento. Él se titulo con un B.S. en psicología con especialidad en biología. Su amor en ayudar a ' +
+                'la gente lo guió a emprender la carrera de maestro de matemáticas, ciencias, y español. Al pasar ' +
+                'algunos años en eso, descubrió el mundo de Community Management donde ha pasado 12 años. Él ahora ' +
+                'considera que este campo le provee una oportunidad para servirle a una audiencia global. Juan es el ' +
+                'gerente del equipo internacional de Stack Overflow donde se ocupa de mantener los sitios para los ' +
+                'miembros que hablan el ruso, portugués, japonés, o español principalmente.',
+                image: 'juanGarza.png',
+                socialLinks: { twitter: '', linkedin: '', github: '' },
+              },
             },
             time: {
               start: {
@@ -50,7 +66,17 @@ export const scheduleInfo = [
             content: {
               title: 'Titulo charla',
               description: 'Descripcion charla',
-              speakerId: 2,
+              tags: [ 'APIs', 'Seguridad', 'DevOps' ],
+              speaker: {
+                name: 'Isabelle Mauny',
+                position: 'CTO at 42Crunch',
+                bio: 'I am working for 42Crunch, a company providing an API security platform, putting security at the ' +
+                'heart of APIs lifecycle: development, testing, deployment. I manage product management, product marketing ' +
+                'as well as analysts relationship. Previously, I was working for WSO2 as VP of Product Strategy and Technical ' +
+                'Evangelist for WSO2\'s open source platform, mainly in Europe.',
+                image: 'isaMauny.png',
+                socialLinks: { twitter: '', linkedin: 'https://www.linkedin.com/in/isamauny/', github: '' },
+              },
             },
             time: {
               start: {
@@ -66,185 +92,20 @@ export const scheduleInfo = [
           {
             type: 2,
             content: {
-              title: 'Titulo charla',
+              title: 'Offline-first sin despeinarte con Cloud Firestore',
               description: 'Descripcion charla',
-              speakerId: 3,
-            },
-            time: {
-              start: {
-                hour: '12',
-                min: '10',
+              tags: [ 'Firebase', 'Cloud Firestore', 'Database' ],
+              speaker: {
+                name: 'Enrique García Navalón',
+                position: 'Lead Engineer en BICG',
+                bio: 'Bio',
+                image: 'garciaNavalon.png',
+                socialLinks: {
+                  twitter: 'https://twitter.com/garcianavalon',
+                  linkedin: 'https://www.linkedin.com/in/garcianavalon/',
+                  github: '',
+                },
               },
-              end: {
-                hour: '12',
-                min: '55',
-              },
-            },
-          },
-          {
-            type: 1,
-            content: {
-              title: 'Titulo charla',
-              description: 'Descripcion charla',
-            },
-            time: {
-              start: {
-                hour: '12',
-                min: '10',
-              },
-              end: {
-                hour: '13',
-                min: '00',
-              },
-            },
-          },
-        ],
-      },
-      {
-        displayName: 'Sala 1',
-        max: 300,
-        items: [
-          {
-            type: 1,
-            content: {
-              title: 'Titulo charla',
-              description: 'Descripcion charla',
-            },
-            time: {
-              start: {
-                hour: '09',
-                min: '45',
-              },
-              end: {
-                hour: '10',
-                min: '30',
-              },
-            },
-          },
-          {
-            type: 2,
-            content: {
-              title: 'Titulo charla',
-              description: 'Descripcion charla',
-              speakerId: 1,
-            },
-            time: {
-              start: {
-                hour: '10',
-                min: '30',
-              },
-              end: {
-                hour: '11',
-                min: '15',
-              },
-            },
-          },
-          {
-            type: 2,
-            content: {
-              title: 'Titulo charla',
-              description: 'Descripcion charla',
-              speakerId: 2,
-            },
-            time: {
-              start: {
-                hour: '11',
-                min: '20',
-              },
-              end: {
-                hour: '12',
-                min: '05',
-              },
-            },
-          },
-          {
-            type: 2,
-            content: {
-              title: 'Titulo charla',
-              description: 'Descripcion charla',
-              speakerId: 3,
-            },
-            time: {
-              start: {
-                hour: '12',
-                min: '10',
-              },
-              end: {
-                hour: '12',
-                min: '55',
-              },
-            },
-          },
-          {
-            type: 1,
-            content: {
-              title: 'Titulo charla',
-              description: 'Descripcion charla',
-            },
-            time: {
-              start: {
-                hour: '12',
-                min: '10',
-              },
-              end: {
-                hour: '13',
-                min: '00',
-              },
-            },
-          },
-        ],
-      },
-    ],
-  },
-  {
-
-    date: '10/06/2018', // DD/MM/YYYY
-    tracks: [
-      {
-        displayName: 'Auditorio2',
-        max: 300,
-        items: [
-          {
-            type: 1,
-            content: {
-              title: 'Titulo charla',
-              description: 'Descripcion charla',
-            },
-            time: {
-              start: {
-                hour: '09',
-                min: '45',
-              },
-              end: {
-                hour: '10',
-                min: '30',
-              },
-            },
-          },
-          {
-            type: 2,
-            content: {
-              title: 'Titulo charla',
-              description: 'Descripcion charla',
-              speakerId: 1,
-            },
-            time: {
-              start: {
-                hour: '10',
-                min: '30',
-              },
-              end: {
-                hour: '11',
-                min: '15',
-              },
-            },
-          },
-          {
-            type: 2,
-            content: {
-              title: 'Titulo charla',
-              description: 'Descripcion charla',
-              speakerId: 3,
             },
             time: {
               start: {
@@ -280,29 +141,4 @@ export const scheduleInfo = [
   },
 ];
 
-export const speakers = [
-  {
-    id: 1,
-    name: 'Juan',
-    position: 'CEO Google',
-    bio: 'lorem ipsum',
-    image: 'speakerName.png',
-    socialLinks: { twitter: '', linkedin: '', github: '' },
-  },
-  {
-    id: 2,
-    name: 'Isabel',
-    position: 'CEO Crunch42',
-    bio: 'lorem ipsum',
-    image: 'speakerName.png',
-    socialLinks: { twitter: '', linkedin: '', github: '' },
-  },
-  {
-    id: 3,
-    name: 'Enrique Navalon',
-    position: 'CTO',
-    bio: 'lorem ipsum',
-    image: 'speakerName.png',
-    socialLinks: { twitter: '', linkedin: '', github: '' },
-  },
-];
+export default scheduleInfo;

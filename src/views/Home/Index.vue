@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <!--<img src="../assets/logo.png">-->
     <HeaderJumbotron/>
     <Scheduler/>
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

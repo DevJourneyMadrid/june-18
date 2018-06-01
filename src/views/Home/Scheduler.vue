@@ -9,7 +9,7 @@
   </section>
 </template>
 <script>
-  import { scheduleInfo, speakers } from '@/data/index';
+  import scheduleInfo from '@/data/index';
   import TableTrack from './SchedulerTableTrack.vue';
 
   export default {
@@ -17,7 +17,6 @@
     components: { TableTrack },
     created() {
       this.info = scheduleInfo;
-      this.speakers = speakers;
     },
     data() {
       return {
