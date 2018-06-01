@@ -12,19 +12,32 @@
           </div>
           <div class="speaker-info">
             <h6 class="name">{{ el.content.speaker.name }}</h6>
-            <div class="tags">
-              <span class="badge badge-pill badge-primary">Primary</span>
+            <div class="social-links">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
         <div class="block-content">
-          <h6>{{ el.content.title }}</h6>
+          <h5>{{ el.content.title }}</h5>
           <p>{{ el.content.description }}</p>
         </div>
+      </div>
+      <div class="tags">
+            <span class="badge badge-pill badge-primary"
+                  v-for="(tag, i) in el.content.tags"
+                  :key="i"> {{ tag }}
+            </span>
       </div>
     </template>
   </td>
 </template>
+
 <script>
   export default {
     name: 'ContentSlot',
@@ -41,6 +54,7 @@
     },
   };
 </script>
+
 <style lang="stylus">
 
   .custom-hover-1,
@@ -68,6 +82,17 @@
         img
           width 100%
           height 100%
+
+    .speaker-info
+      margin-top 10px
+      .name
+        font-weight lighter
+
+  .tags
+    display flex
+    justify-content flex-end
+    .badge
+      margin-left 3px
 
 
 </style>
