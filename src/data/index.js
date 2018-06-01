@@ -129,7 +129,7 @@ const scheduleInfo = [
             type: 2,
             content: {
               title: 'AireMAD',
-              description: '--',
+              description: 'AireMAD es un portal que nos muestra la información de contaminación en el aire, contaminación acústica, niveles de polen, niveles de gripe y el tiempo. Es una aplicación de código abierta desarrollada por Fictizia que utiliza los datos abiertos del Ayuntamiento de Madrid junto con otras fuentes oficiales y no oficiales.',
               tags: [ 'Storage', 'Technological Innovation' ],
               speaker: {
                 name: 'Ulises Gascón',
@@ -146,27 +146,68 @@ const scheduleInfo = [
             time: {
               start: {
                 hour: '13',
-                min: '00',
+                min: '30',
               },
               end: {
                 hour: '13',
-                min: '20',
+                min: '50',
               },
             },
           },
           {
             type: 1,
             content: {
-              title: 'Titulo charla',
-              description: 'Descripcion charla',
+              title: 'DESCANSO',
+              description: null,
             },
             time: {
               start: {
-                hour: '12',
-                min: '10',
+                hour: '14',
+                min: '00',
               },
               end: {
-                hour: '13',
+                hour: '15',
+                min: '30',
+              },
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    date: '07/06/2018', // DD/MM/YYYY
+    tracks: [
+      {
+        displayName: 'Demo Corner by OSW',
+        max: 20,
+        items: [
+          {
+            type: 2,
+            content: {
+              title: 'OSWGUILDS: Live Guilds',
+              description: 'Lo que haremos\n' +
+              '\n' +
+              '📌 Como siempre... dejamos este espacio para que los Guilds se sienten cara a cara y se arremanguen para empezar a planificar sus proyectos, idear, definir...lo que sea! 4 horas de curro seguido de cerca por algunos mentores de la comunidad OSWeekends ;)',
+              tags: [ 'OSW', 'Live Guilds', 'Proyectos' ],
+              speaker: {
+                name: 'Open Source Weekends',
+                position: null,
+                bio: null,
+                image: null,
+                socialLinks: {
+                  twitter: 'https://twitter.com/os_weekends',
+                  website: 'http://osweekends.com/',
+                },
+              },
+            },
+            time: {
+              start: {
+                hour: '10',
+                min: '00',
+              },
+              end: {
+                hour: '14',
                 min: '00',
               },
             },
