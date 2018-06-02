@@ -749,12 +749,169 @@ export const scheduleInfo = [
             },
             time: {
               start: {
+                hour: '19',
+                min: '00',
+              },
+              end: {
+                hour: '19',
+                min: '30',
+              },
+            },
+          },
+          {
+            type: 2,
+            content: {
+              title: 'Sacando todo el partido a Scala mediante la programación funcional',
+              description: 'Es posible que ya hayas comprobado que puedes programar en Scala como si programaras aún en Java. Aunque esto indudablemente ayuda mucho a la hora de atraer a nuevos adeptos al lenguaje, no deberíamos olvidar que el soporte a la programación funcional es una de las mayores ventajas del lenguaje. En esta charla describiremos tres abstracciones funcionales que te permitirán conseguir niveles de reusabilidad y modularidad sin precedentes: las funciones de orden superior, las type clases y las funciones monádicas.',
+              tags: [ 'Functional Programming', 'Scala' ],
+              speakers: [
+                {
+                  name: 'Juan Manuel Serrano',
+                  position: 'CTO',
+                  bio: 'Experiencia profesional fundamentalmente en C++, sistemas distribuidos de tiempo real. Amante de la programación funcional y de la programación concurrente. Eterno aprendiz',
+                  image: null,
+                  socialLinks: {
+                    twitter: 'https://twitter.com/juanshac',
+                    linkedin: 'https://www.linkedin.com/in/jserranohidalgo/',
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '19',
+                min: '00',
+              },
+              end: {
+                hour: '19',
+                min: '30',
+              },
+            },
+          },
+        ],
+      },
+      {
+        displayName: 'Sala Irontec',
+        max: 20,
+        items: [
+          {
+            type: 2,
+            content: {
+              title: 'Legends of STEM, be a legend!',
+              description: 'Legends of STEM es un juego móvil para tablets en el que niñas entre 8-13 años pueden protagonizar referentes del mundo STEM y poder vivir sus experiencias. El proyecto pretende visibilizar a los referentes femeninos de las carreras STEM para romper los sesgos de género relacionados con los trabajos y así conseguir que más mujeres se matriculen en estas carreras.',
+              tags: [ 'Diversidad', 'Transformacion Digital' ],
+              speakers: [
+                {
+                  name: 'Ana Enríquez Alonso-Villalobos',
+                  position: '--',
+                  bio: '--',
+                  image: null,
+                  socialLinks: {
+                    twitter: 'https://twitter.com/ana_eav',
+                    linkedin: 'https://www.linkedin.com/in/ana-enr%C3%ADquez-alonso-villalobos-489b45b2/',
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
                 hour: '18',
                 min: '30',
               },
               end: {
+                hour: '18',
+                min: '45',
+              },
+            },
+          },
+          {
+            type: 2,
+            content: {
+              title: 'Breakers: fabricación digital rompiendo barreras',
+              description: 'En esta charla hablaremos sobre Breakers, un programa que llevamos realizando donde los dos últimos años para acercar la fabricación digital a jóvenes en riesgo de exclusión. Hablaremos sobre cómo se ha desarrollado el programa y cuales son los principales aprendizajes que hemos tenido durante el camino.',
+              tags: [ 'Diversidad', 'Transformacion Digital' ],
+              speakers: [
+                {
+                  name: 'César García',
+                  position: 'Vicepresidente Makespace Madrid',
+                  bio: 'César García Sáez es Ingeniero Técnico de Sistemas y licenciado en Estudios de Asia Oriental por la Universidad Oberta de Cataluña. Es graduado del programa de fabricación digital Fab Academy. Tiene más de 10 años de experiencia como trabajador del sector TIC y amplia experiencia como divulgador tecnológico. Es co-fundador de Makespace Madrid, una comunidad de aficionados a la tecnología y la creación que utilizan la fabricación digital para hacer realidad sus proyectos. Es una persona muy activa entre las comunidades tecnológicas habiendo participado en numerosos encuentros. En 2015, ha participado en la creación de la Red Española de Creación y Fabricación Digital  (CREFAB). Es coordinador del programa Breakers, que se desarrolla a nivel nacional y que buscar acercar la Fabricación Digital a jóvenes en situación de vulnerabilidad. Desde 2015, conduce el podcast "La Hora Maker", que informa sobre los avances de la comunidad maker española, poniendo en valor a los pioneros de este movimiento al tiempo que impulsa la creación de nuevos espacios y colectivos.',
+                  image: null,
+                  socialLinks: {
+                    twitter: 'https://twitter.com/elsatch',
+                    linkedin: 'http://es.linkedin.com/in/cesargarciasaez',
+                    website: 'http://www.makespacemadrid.org',
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '18',
+                min: '45',
+              },
+              end: {
                 hour: '19',
-                min: '00',
+                min: '15',
+              },
+            },
+          },
+          {
+            type: 2,
+            content: {
+              title: 'Nuestra responsabilidad con la tecnología',
+              description: 'Muchos ingenieros y desarrolladores hemos pensado alguna vez que nosotros desarrollamos tecnología, pero no decidimos cómo esta tecnología se relaciona con las personas. En otras palabras, la tecnología "es neutra", y son las personas las que deciden cómo se usa y qué impacto personal y social tendrá ese uso. Durante unos minutos, trataré de explicar cómo esto no es siempre cierto. Es más, en muchos casos, la tecnología, al menos tal y como es desplegada, dista mucho de ser neutra en cuánto a cómo nos afecta.',
+              tags: [ 'Social Impact of Tech', 'Transformacion Digital' ],
+              speakers: [
+                {
+                  name: 'Jesús M. Gonzalez-Barahona',
+                  position: 'Vicepresidente Makespace Madrid',
+                  bio: 'Jesús M. González Barahona es profesor en la Universidad Rey Juan Carlos y cofundador de Bitergia, la compañía de analítica del desarrollo de software. Ha realizado parte de su carrera investigadora y docente en el campo del software libre y de la analítica cuantitativa del desarrollo de software. Desde hace unos años está también interesado en el mundo más amplio de la cultura libre y de el impacto de la tecnología en la sociedad.',
+                  image: null,
+                  socialLinks: {
+                    twitter: 'https://twitter.com/jgbarah',
+                    linkedin: 'http://es.linkedin.com/in/jgbarah',
+                    website: 'http://www.bitergia.com',
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '19',
+                min: '15',
+              },
+              end: {
+                hour: '19',
+                min: '45',
+              },
+            },
+          },
+          {
+            type: 2,
+            content: {
+              title: 'GingerCode: Un inicio épico en el aprendizaje de Javascript',
+              description: 'GingerCode es una herramienta de apoyo a profesor@s, estudiantes y autodidactas que se vayan a introducir en el mundo de la programación. Escribe en pseudocódigo y GingerCode te lo transforma en código JavaScript. En esta charla veremos cómo está construido Ginger y cómo es ese pseudocódigo que conoce.',
+              tags: [ 'Javascript' ],
+              speakers: [
+                {
+                  name: 'Jacinto José Cruz',
+                  position: 'Innovation and Technology Manager at Opcion TIC',
+                  bio: 'Terminando el grado en Ingeniería Telemática en la Universidad Carlos III de Madrid. Miembro del departamento de telemetría del equipo Formula UC3M de la competición Formula Student y miembro activo de la comunidad Open Source Weekends.',
+                  image: null,
+                  socialLinks: {
+                    linkedin: 'www.linkedin.com/in/ruben-moreno-carrillo',
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '19',
+                min: '45',
+              },
+              end: {
+                hour: '20',
+                min: '15',
               },
             },
           },
