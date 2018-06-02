@@ -2,7 +2,11 @@
   <section class="sub-header">
     <div class="container">
       <div class="block">
-        <router-link to="/tickets"> Comprar Entradas</router-link>
+        <p class="shadow-text mt-0 mb-0 mr-5">
+          Consigue tu entrada GRATIS con este código:
+          <span class="badge badge-pill badge-light">GOE18250</span>
+        </p>
+        <router-link to="/tickets"> Comprar entrada </router-link>
       </div>
     </div>
   </section>
@@ -24,11 +28,20 @@
 
     .block
       position relative
-      /*height 50px*/
       display flex
       align-items center
       justify-content flex-end
+
+      .shadow-text:not(span)
+        text-shadow: 1px 1px 2px white
+        font-size 17px
+        font-weight 500
+        span
+          text-shadow none
+
       a
+        text-align center
+        text-shadow: 1px 1px 2px #999
         padding 8px 20px
         margin-top 10px
         margin-bottom 10px
@@ -48,6 +61,7 @@
           color darkgreen
           text-decoration none
           border-color darkgreen
+          text-shadow: 1px 1px 2px #fafafa
 
 
   @-webkit-keyframes changebackground {
