@@ -937,11 +937,11 @@ export const scheduleInfo = [
                 },
                 {
                   item: 'Un E-Book de O’Reilly',
-                  sponsor: ' https://www.oreilly.com/',
+                  sponsor: 'https://www.oreilly.com/',
                   isLink: true,
                 },
                 {
-                  item: ' Camiseta de OpenExpoEurope2018',
+                  item: 'Camiseta de OpenExpoEurope2018',
                   sponsor: 'OpenExpoEurope',
                   isLink: false,
                 },
