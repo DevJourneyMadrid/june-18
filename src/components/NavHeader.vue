@@ -2,7 +2,9 @@
   <div id="nav">
     <div class="wrapper">
       <div class="logo">
-        Logo
+        <router-link to="/">
+          <img src="../assets/img/osw-logo.png" alt="osw logo">
+        </router-link>
       </div>
       <div class="items">
         <ul>
@@ -37,6 +39,13 @@
     padding 20px
     background-color #fafafa
 
+    .logo
+      img
+        height 40px
+
+    .items
+      display flex
+      align-items center
     ul
       margin-bottom 0
       padding-left 0
@@ -44,10 +53,15 @@
       display inline-block
       list-style none
       margin-left 20px
+      font-size 22px
       a
         font-weight bold
         color #2c3e50
+        &:hover
+          text-decoration none
+          border-bottom 2px solid #2c3e50
         &.router-link-exact-active
           color #42b983
+          border-bottom 2px solid #42b983
 
 </style>
