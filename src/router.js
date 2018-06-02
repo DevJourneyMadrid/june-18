@@ -17,5 +17,11 @@ export default new Router( {
       name: 'speakers',
       component: About,
     },
+    {
+      path: '/tickets',
+      beforeEnter() {
+        window.location.href = 'https://openexpoeurope.com/oe2018/register/';
+      },
+    },
   ],
 } );
