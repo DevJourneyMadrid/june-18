@@ -395,7 +395,48 @@ const scheduleInfo = [
         displayName: 'Sala Auditorio Red Hat',
         max: 20,
         items: [
-
+          {
+            type: 2,
+            content: {
+              title: 'StackOverflow en Español: No todos hablan Inglés',
+              description: 'Mientras el desarrollo de código se hace principalmente en inglés, muchos de los desarrolladores no dependen del inglés en la mayoría de sus conversaciones. Ven a aprender como una comunidad de desarrolladores en tu lengua natal puede hacer del internet un lugar mejor. ¡Solamente necesitamos que se presente!',
+              tags: [ 'Comunidades' ],
+              speakers: [
+                {
+                  name: 'Teba Gómez',
+                  position: '--',
+                  bio: 'Experta en Gestión de proyectos con metodologías ágiles y Design Thinking, es además facilitadora y coach de equipos. Durante más 5 años colaboró en la implementación de mega-proyectos en una multinacional de software y tecnología para la salud. De lo que más orgullosa se siente es de ser la Embajadora de los Guilds en Open Source Weekends, de crear un ecosistema para el desarrollo de proyectos Open Source y de fomentar la Cultura Libre hasta donde sea posible. También es responsable del diseño e implementación de un plan de formación técnico y de gestión de proyectos Open Source, así como de habilidades transversales (cultura de equipo, comunicación…). Las metodologías ágiles le han perseguido desde hace muchos años; especialmente enganchada a bajar a tierra toda esa locura que implica Scrum, Agile Project Management y Design Thinking. Colaboradora y mentora freelance en StartUps y PYMes.',
+                  image: 'koolteba.jpg',
+                  socialLinks: {
+                    github: 'https://github.com/kooltheba',
+                    twitter: 'https://twitter.com/KoolTheba',
+                    linkedin: 'https://www.linkedin.com/in/tebagomez/',
+                  },
+                },
+                {
+                  name: 'Ulises Gascón',
+                  position: 'TPM at Google',
+                  bio: 'I am one of the co-organizers of the Open Source Weekends and I wrote the book "JavaScript, ¡Inspírate!" (JavaScript, Get inspired!). Currently my personal aim is to evangelize about Open Source. I believe that the Open Source can change the world. This is the reason why most of my software and hardware projects were released under Open Source licenses in GitHub. Since a very young age, I have been attracted by the world of web and computing to which I have dedicated all my career life till today.During the years I\'ve had different jobs as webmaster, developer, instructor and developer evangelist. Today I work as a freelance consultant and an instructor teaching about JavaScript, Node.js, Python e Internet of Things, among others... As a Full Stack Developer, I developed a lot of experience in fields like Internet of Things (IoT) with Open Hardware as Arduino or Raspberry Pi. Most of the time I code in JavaScript and Python.',
+                  image: '--',
+                  socialLinks: {
+                    twitter: 'https://twitter.com/kom_256',
+                    github: 'https://github.com/UlisesGascon',
+                    website: 'https://medium.com/@ulisesGascon',
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '18',
+                min: '30',
+              },
+              end: {
+                hour: '19',
+                min: '00',
+              },
+            },
+          },
           {
             type: 2,
             content: {
