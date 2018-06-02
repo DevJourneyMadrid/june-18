@@ -917,6 +917,48 @@ export const scheduleInfo = [
           },
         ],
       },
+      {
+        displayName: 'Sala King Of App',
+        max: 20,
+        items: [
+          {
+            type: 3,
+            content: {
+              title: 'Hackathon: Capture the Flag',
+              description: 'El encuentro será una competencia individual y habrá premios para los tres primeros puestos. Es una competencia que pondrá a prueba tus habilidades y conocimientos. Competir en The Game of Hackers es una manera divertida e inteligente de aprender el arte del hacking.',
+              helpText: 'Recomendamos a los contendientes, anotarse y estar en el sitio 30 minutos antes del horario de inicio.',
+              tags: [ 'Hackathon', 'CTF' ],
+              prizes: [
+                {
+                  item: 'Descuento del 40% en cursos del IEBS',
+                  sponsor: 'https://www.iebschool.com/',
+                  isLink: true,
+                },
+                {
+                  item: 'Un E-Book de O’Reilly',
+                  sponsor: ' https://www.oreilly.com/',
+                  isLink: true,
+                },
+                {
+                  item: ' Camiseta de OpenExpoEurope2018',
+                  sponsor: 'OpenExpoEurope',
+                  isLink: false,
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '17',
+                min: '15',
+              },
+              end: {
+                hour: '20',
+                min: '00',
+              },
+            },
+          },
+        ],
+      },
     ],
   },
   {
