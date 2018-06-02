@@ -5,6 +5,9 @@
       <template slot="main">
         <router-view/>
       </template>
+      <template slot="footer">
+        <FooterLinks></FooterLinks>
+      </template>
     </Layout>
   </div>
 </template>
@@ -21,12 +24,14 @@
 
 <script>
   import NavHeader from './components/NavHeader.vue';
+  import FooterLinks from './components/FooterLinks.vue';
   import Layout from './layouts/main.vue';
 
   export default {
     components: {
-      NavHeader,
       Layout,
+      NavHeader,
+      FooterLinks,
     },
   };
 </script>

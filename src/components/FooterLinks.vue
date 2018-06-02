@@ -1,68 +1,77 @@
 <template>
-  <div id="nav">
-    <div class="wrapper">
-      <div class="logo">
-        <router-link to="/">
-          <img src="../assets/img/osw-logo.png" alt="osw logo">
-        </router-link>
-      </div>
-      <div class="items">
-        <ul>
-          <li v-for="(link, index) in navLinks" :key="index">
-            <router-link :to="link.to"> {{ link.displayName }}</router-link>
+  <footer class="bg-light mb-0 mt-3">
+    <div class="container">
+      <div class="links d-flex justify-content-center">
+        <ul class="list-inline">
+          <li class="list-inline-item" v-for="(link, i) in linksList" :key="i">
+            <a :href="link.to">{{ link.displayName }}</a>
           </li>
         </ul>
       </div>
+      <div class="credit text-center">
+        <div class="block">
+          <p class="mb-0 el-cursor text-muted">
+            <i class="fa fa-code text-primary" aria-hidden="true"></i>
+            by <b>Jorge Baumann</b> with
+            <i class="fa fa-heart-o text-danger" aria-hidden="true"></i>
+          </p>
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a href="https://twitter.com/baumannzone" class="twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/baumannzone" class="github">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </div>
+  </footer>
 </template>
+
 <script>
   export default {
     name: 'NavHeader',
     data() {
       return {
-        navLinks: [
-          { displayName: 'Home', to: '/' },
-          { displayName: 'Speakers', to: '/speakers' },
-          // { displayName: 'Entradas', to: '/tickets' },
+        linksList: [
+          { displayName: 'Github', to: 'https://github.com/baumannzone/open-expo-schedule' },
+          { displayName: '#OSW', to: 'http://osweekends.com/' },
+          { displayName: 'Ayuda Entradas', to: 'https://cloud.osweekends.com/index.php/s/bBcQ6TpfQozgWGo#pdfviewer' },
         ],
       };
     },
   };
 </script>
+
 <style lang="stylus">
+  footer
+    border-top 5px solid #41b883
+    min-height 150px
+    padding-top 20px
+    padding-bottom 20px
 
-  .wrapper
-    display flex
-    justify-content space-between
+  .links
+    a
+      color: #333
+      font-weight bolder
+      margin-right 15px
 
-  #nav
-    padding 20px
-    background-color #fafafa
+  .el-cursor
+    cursor url("../assets/img/cursor.png"), auto;
 
-    .logo
-      img
-        height 40px
-
-    .items
-      display flex
-      align-items center
-    ul
-      margin-bottom 0
-      padding-left 0
-    li
-      display inline-block
-      list-style none
-      margin-left 20px
-      font-size 22px
-      a
-        font-weight bold
-        color #2c3e50
-        &:hover
-          text-decoration none
-          border-bottom 2px solid #2c3e50
-        &.router-link-exact-active
-          color #42b983
-          border-bottom 2px solid #42b983
+  .social-links
+    a.github
+      color: #24292f
+    a.twitter
+      color #1da1f3
+    a.linkedin
+      color #0077b5
+    a.website
+      color: #41b883
 
 </style>

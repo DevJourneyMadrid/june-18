@@ -1,7 +1,8 @@
 /* eslint-disable */
-// Types: 1 & 2
+// Types: 1 & 2 & 3
 // Type 1 is a moment like welcome or networking
 // Type 2 is when a speaker has time to speak
+// Type 3 no speaker but has info
 export const scheduleInfo = [
   {
     date: '06/06/2018', // DD/MM/YYYY
