@@ -44,7 +44,7 @@ const scheduleInfo = [
             content: {
               title: 'Madrid Tech Alliance. Porque juntos somos más fuertes',
               description: 'En esta charla expondremos el animo de la Madrid Tech Alliance, el porqué se creó hace unos meses, quienes forman parte de ella y que hay que hacer para unirse como comunidad.',
-              tags: [ 'Comunidad' ],
+              tags: [ 'Comunidades' ],
               speaker: {
                 name: 'Paola García',
                 position: 'CEO at Chefly',
@@ -368,15 +368,15 @@ const scheduleInfo = [
         ],
       },
       {
-        displayName: 'Demo Corner by OSW',
+        displayName: 'Sala Auditorio Red Hat',
         max: 20,
         items: [
           {
             type: 2,
             content: {
-              title: 'NodeSchool Madrid',
-              description: 'Taller de Node.js y JavaScript. Paso a paso siguiendo tutoriales',
-              tags: [ 'Javascript', 'NodeJS' ],
+              title: 'Open Source Weekends: Un año de guilders y de proyectos!',
+              description: 'Llega el momento de hacer una retrospectiva sobre lo logrado en este año 2 de vida como comunidad, sobre todo gracias al esfuerzo de nuestros Guilders, los miembros activos de los equipos de proyectos. Estamos apostando por un ecosistema de redes de equipos auto-organizados y gracias a un plan de formación, programa de mentoring y gestión de recursos compartidos, ahora es más asequible para tod@s el desarrollar proyectos Open Source en comunidad, sin las clásicas barreras que todos hemos sufrido. ¡Os lo contaremos todo, vente a conocernos!',
+              tags: [ 'OSW', 'Guilds' ],
               speaker: {
                 name: 'Carlos Azaustre',
                 position: 'Desarrollador FullStack @Chefly',
@@ -403,18 +403,17 @@ const scheduleInfo = [
           {
             type: 2,
             content: {
-              title: 'Madrid Tech Alliance. Porque juntos somos más fuertes',
-              description: 'En esta charla expondremos el animo de la Madrid Tech Alliance, el porqué se creó hace unos meses, quienes forman parte de ella y que hay que hacer para unirse como comunidad.',
-              tags: [ 'Comunidad' ],
+              title: 'StackOverflow en Español: No todos hablan Inglés',
+              description: 'Mientras el desarrollo de código se hace principalmente en inglés, muchos de los desarrolladores no dependen del inglés en la mayoría de sus conversaciones. Ven a aprender como una comunidad de desarrolladores en tu lengua natal puede hacer del internet un lugar mejor. ¡Solamente necesitamos que se presente!',
+              tags: [ 'Comunidades' ],
               speaker: {
-                name: 'Paola García',
-                position: 'CEO at Chefly',
-                bio: 'Paola García es Ingeniera de Telecomunicaciones y desarrolladora de Software. Además es co-fundadora y CEO de un Startup tecnológica Chefly. Trabaja desde Campus Madrid, un edificio de Google para emprendedores en el que además es embajadora de Comunidad especializada en perspectiva de género. Ponente en charlas técnicas y sobre emprendimiento y embajadora de Diversidad en Open Source Weekends. Además es organizadora de Madrid Tech Alliance.',
-                image: 'image.jpg',
+                name: 'Juan Garza',
+                position: '--',
+                bio: '--',
+                image: '--',
                 socialLinks: {
-                  twitter: 'https://twitter.com/gGarciaPaola',
-                  linkedin: 'https://www.linkedin.com/in/paolagarcia/',
-                  website: 'https://chefly.co',
+                  twitter: 'https://twitter.com/esStackOverflow',
+                  website: 'https://es.stackoverflow.com/',
                 },
               },
             },
