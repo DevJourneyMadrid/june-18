@@ -2,7 +2,7 @@
 // Types: 1 & 2
 // Type 1 is a moment like welcome or networking
 // Type 2 is when a speaker has time to speak
-const scheduleInfo = [
+export const scheduleInfo = [
   {
     date: '06/06/2018', // DD/MM/YYYY
     tracks: [
@@ -398,9 +398,9 @@ const scheduleInfo = [
           {
             type: 2,
             content: {
-              title: 'StackOverflow en Español: No todos hablan Inglés',
-              description: 'Mientras el desarrollo de código se hace principalmente en inglés, muchos de los desarrolladores no dependen del inglés en la mayoría de sus conversaciones. Ven a aprender como una comunidad de desarrolladores en tu lengua natal puede hacer del internet un lugar mejor. ¡Solamente necesitamos que se presente!',
-              tags: [ 'Comunidades' ],
+              title: 'Open Source Weekends: ¡Un año de guilders y proyectos! 🤗',
+              description: 'Llega el momento de hacer una retrospectiva sobre lo logrado en este año 2 de vida como comunidad, sobre todo gracias al esfuerzo de nuestros Guilders, los miembros activos de los equipos de proyectos. Estamos apostando por un ecosistema de redes de equipos auto-organizados y gracias a un plan de formación, programa de mentoring y gestión de recursos compartidos, ahora es más asequible para tod@s el desarrollar proyectos Open Source en comunidad, sin las clásicas barreras que todos hemos sufrido. ¡Os lo contaremos todo, vente a conocernos!',
+              tags: [ 'Comunidades', 'OSW', 'Guilds' ],
               speakers: [
                 {
                   name: 'Teba Gómez',
@@ -458,12 +458,237 @@ const scheduleInfo = [
             },
             time: {
               start: {
-                hour: '12',
+                hour: '19',
                 min: '00',
               },
               end: {
-                hour: '12',
+                hour: '20',
+                min: '00',
+              },
+            },
+          },
+        ],
+      },
+      {
+        displayName: 'Sala Arsys',
+        max: 20,
+        items: [
+          {
+            type: 2,
+            content: {
+              title: 'Cómo elegir correctamente las etiquetas HTML5 al maquetar',
+              description: 'Las preguntas que nos sacarán de dudas al elegir qué etiqueta de HTML5 es la más adecuada para cada «parte» de la interfaz según la semántica de nuestros contenidos.',
+              tags: [ 'Comunidades', 'OSW', 'Guilds' ],
+              speakers: [
+                {
+                  name: 'Ángel Corral',
+                  position: 'UX/Visual Senior Designer',
+                  bio: 'Experta en Gestión de proyectos con metodologías ágiles y Design Thinking, es además facilitadora y coach de equipos. Durante más 5 años colaboró en la implementación de mega-proyectos en una multinacional de software y tecnología para la salud. De lo que más orgullosa se siente es de ser la Embajadora de los Guilds en Open Source Weekends, de crear un ecosistema para el desarrollo de proyectos Open Source y de fomentar la Cultura Libre hasta donde sea posible. También es responsable del diseño e implementación de un plan de formación técnico y de gestión de proyectos Open Source, así como de habilidades transversales (cultura de equipo, comunicación…). Las metodologías ágiles le han perseguido desde hace muchos años; especialmente enganchada a bajar a tierra toda esa locura que implica Scrum, Agile Project Management y Design Thinking. Colaboradora y mentora freelance en StartUps y PYMes.',
+                  image: 'koolteba.jpg',
+                  socialLinks: {
+                    twitter: 'https://twitter.com/ancoar',
+                    linkedin: 'https://www.linkedin.com/in/ancoar',
+                    website: 'http://ancoar.com/',
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '18',
                 min: '30',
+              },
+              end: {
+                hour: '19',
+                min: '15',
+              },
+            },
+          },
+          {
+            type: 2,
+            content: {
+              title: 'Introducción práctica a Vue.js',
+              description: 'Vue.js vende simplicidad y fácil adopción. Se autodefine como un “framework progresivo” porque lo podemos ir adaptando poco a poco y, según vayamos necesitando, estar seguros de que no nos fallará cuando nuestra aplicación crezca y sea mas compleja. En esta charla, Rubén Valseca tratará de mostrar cómo usar Vue con lo mínimo necesario y cómo de fácil es empezar a usarlo tirando código desde el minuto cero y con ejemplos prácticos. Sin Webpack, sin NPM, sin procesos de build y desarrollo, sin routing... Vue en su mínima expresión. Puede serte útil si quieres “ver de qué va esto de Vue” o, si ya lo dominas y te gustaría conocer cómo implementarlo sin todo el tooling al que estamos acostumbrados.',
+              tags: [ 'Javascript', 'Desarrollo web' ],
+              speakers: [
+                {
+                  name: 'Rubén Valseca',
+                  position: 'Front-end Developer',
+                  bio: 'Rubén Valseca es Frontend Developer en StyleSage. Enamorado de Javascript, lleva varios años en el ecosistema startup trabajando en empresas que van desde una aplicación de alquiler de plazas de garaje por horas hasta sistemas SCADAs de control de parques eólicos. Actualmente trabaja en StyleSage donde aplican Big Data en el mundo de la moda.',
+                  image: '--',
+                  socialLinks: {
+                    twitter: 'https://twitter.com/rubnvp',
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '19',
+                min: '15',
+              },
+              end: {
+                hour: '20',
+                min: '00',
+              },
+            },
+          },
+        ],
+      },
+      {
+        displayName: 'Sala PrestaShop',
+        max: 20,
+        items: [
+          {
+            type: 2,
+            content: {
+              title: 'Py-Píldoras para tratar tu Open Data',
+              description: 'El Open Data comprende tantas fuentes, formatos y contenidos que, en ocasiones, encontrar la forma de tratarlo puede ser complicado. Python ofrece miles de posibilidades que pueden hacerte la vida mucho más fácil. En esta charla te enseñaremos algunos ejemplos en los que puedes usar Python para que tratar datos abiertos nunca más sea un dolor.',
+              tags: [ 'Open Data' ],
+              speakers: [
+                {
+                  name: 'Alicia Perez',
+                  position: null,
+                  bio: null,
+                  image: null,
+                  socialLinks: {
+                    twitter: 'https://twitter.com/alipeji',
+                  },
+                },
+                {
+                  name: 'Mabel Delgado',
+                  position: null,
+                  bio: null,
+                  image: null,
+                  socialLinks: {
+                    twitter: 'https://twitter.com/mabeldelgadob',
+                  },
+                },
+                {
+                  name: 'María Medina',
+                  position: null,
+                  bio: null,
+                  image: null,
+                  socialLinks: {
+                    twitter: 'https://twitter.com/mariamedp',
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '18',
+                min: '30',
+              },
+              end: {
+                hour: '19',
+                min: '00',
+              },
+            },
+          },
+          {
+            type: 2,
+            content: {
+              title: 'R + H2O para Machine Learning',
+              description: 'R nos permite utilizar un montón de modelos y librerías de machine learning para realizar diferentes problemas de analítica, pero cuando este volumen de datos aumenta el performance que suele ofrecer no es el deseado. H2o provee de unas librerías open source capaces de ejecutar estos algoritmos de machine learning de una forma sencilla y optima cuando nuestros datos aumentan en volumen. En la charla explicaremos como funcionan las principales librerías y como podemos integrarlas y usar de R.',
+              tags: [ 'BigData', 'Machine Learning' ],
+              speakers: [
+                {
+                  name: 'Inés Huertas',
+                  position: 'CEO & Data Scientist @Datatons',
+                  bio: 'Data Scientist y co-fundadora de Datatons, Ex-Sysadmin y enamorada de los datos, desarrolla proyectos de analítica sobre plataforma Hadoop no solo enfocado en el tratamiento dato sino también en la parte del diseño dada su experiencia en la administración de sistemas Big Data. Actualmente participa también como coorganizadora del grupo de R-ladies Madrid y el meetup de Big Data Madrid intentando generar una comunidad donde todo el mundo que tenga interés pueda participar e iniciarse en el mundo de los datos.',
+                  image: null,
+                  socialLinks: {
+                    twitter: 'https://twitter.com/quierodata',
+                  },
+                },
+                {
+                  name: 'Beatriz Hernández',
+                  position: 'Data Scientist',
+                  bio: 'Data Scientist @DatMean donde trabaja con tecnologías Deep Learning y visualización de datos aplicado al consumidor online. En su tiempo libre co-organiza R-Ladies Madrid, una rama local de la comunidad global de R en la que se fomenta la diversidad de género en los campos STEM y en concreto en la comunidad de R. Parte de la comunidad NASA Datanauts, un grupo que se mueve en un entorno de datos enfocados en el espacio.',
+                  image: null,
+                  socialLinks: {
+                    github: 'https://github.com/chucheria',
+                    twitter: 'https://twitter.com/Chucheria',
+                    website: 'https://chucheria.github.io/material/',
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '19',
+                min: '00',
+              },
+              end: {
+                hour: '19',
+                min: '30',
+              },
+            },
+          },
+          {
+            type: 2,
+            content: {
+              title: 'GrimoireLab, analizando comunidades Open Source fácilmente',
+              description: 'Durante la charla, presentaremos el proyecto GrimoireLab y la iniciativa de The Linux Foundation CHAOSS (Community Health Analytics for Open Source). El objetivo es que cualquier persona que asista pueda ejecutar analítica cuantitativa de las comunidades alrededor de los proyectos open source desde el punto de vista de las personas involucradas, su actividad y su rendimiento. Se presentarán algunos casos de uso y métricas de referencia.',
+              tags: [ 'Monitoring', 'Tech Innovation' ],
+              speakers: [
+                {
+                  name: 'Jose Manrique',
+                  position: 'CEO @Bitergia',
+                  bio: 'Data Scientist y co-fundadora de Datatons, Ex-Sysadmin y enamorada de los datos, desarrolla proyectos de analítica sobre plataforma Hadoop no solo enfocado en el tratamiento dato sino también en la parte del diseño dada su experiencia en la administración de sistemas Big Data. Actualmente participa también como coorganizadora del grupo de R-ladies Madrid y el meetup de Big Data Madrid intentando generar una comunidad donde todo el mundo que tenga interés pueda participar e iniciarse en el mundo de los datos.',
+                  image: null,
+                  socialLinks: {
+                    twitter: 'https://twitter.com/jsmanrique',
+                    website: 'https://bitergia.com/',
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '19',
+                min: '30',
+              },
+              end: {
+                hour: '20',
+                min: '00',
+              },
+            },
+          },
+        ],
+      },
+      {
+        displayName: 'Sala Oracle',
+        max: 20,
+        items: [
+          {
+            type: 2,
+            content: {
+              title: '#El feliz developer (v. extendida)',
+              description: 'El Open Data comprende tantas fuentes, formatos y contenidos que, en ocasiones, encontrar la forma de tratarlo puede ser complicado. Python ofrece miles de posibilidades que pueden hacerte la vida mucho más fácil. En esta charla te enseñaremos algunos ejemplos en los que puedes usar Python para que tratar datos abiertos nunca más sea un dolor.',
+              tags: [ 'Open Data' ],
+              speakers: [
+                {
+                  name: 'Irene M. Morgado',
+                  position: null,
+                  bio: 'Socióloga especializada en Comunicación y Psicología Social. Comprometida con proyectos sociales y éticos, me he movido desde el mundo de las estrategias de comunicación hacia los Recursos Humanos, siempre interesada por el mundo técnico :) Últimamente, profundizando en el mundo del Análisis de Inteligencia y la definición de Perfiles. Colaboro contando "cosas" sobre Habilidades Sociales y Profesionales en los podcast que son tan insensatos de haberme fichado. Desgrano en la saga  "El feliz Developer" un adelanto de "Developers (y demás profesionales IT) Motivados", mi próximo estudio.',
+                  image: null,
+                  socialLinks: {
+                    twitter: 'https://twitter.com/IrnMM',
+                    linkedin: 'https://www.linkedin.com/in/irenemmorgado/'
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '18',
+                min: '30',
+              },
+              end: {
+                hour: '20',
+                min: '00',
               },
             },
           },
@@ -516,4 +741,10 @@ const scheduleInfo = [
   },
 ];
 
-export default scheduleInfo;
+export const eventInfo = {
+  title: 'Open Comunnities Summit by #OSW',
+  subtitle: '6 y 7 Junio 2018',
+  ticketsURL: 'https://openexpoeurope.com/oe2018/register/',
+  ticketCode: 'GOE18250',
+  callToActionMsg: 'Comprar entrada',
+};

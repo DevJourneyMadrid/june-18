@@ -4,16 +4,22 @@
       <div class="block">
         <p class="shadow-text mt-0 mb-0 mr-5">
           Consigue tu entrada GRATIS con este código:
-          <span class="badge badge-pill badge-light">GOE18250</span>
+          <span class="badge badge-pill badge-light">{{ data.ticketCode }}</span>
         </p>
-        <router-link to="/tickets"> Comprar entrada </router-link>
+        <router-link to="/tickets"> {{ data.callToActionMsg }} </router-link>
       </div>
     </div>
   </section>
 </template>
 <script>
   export default {
-    name: 'HeaderJumbotron',
+    name: 'SubHeaderBlock',
+    props: {
+      data: {
+        required: true,
+        type: Object,
+      },
+    },
   };
 </script>
 

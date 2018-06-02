@@ -9,7 +9,7 @@
   </section>
 </template>
 <script>
-  import scheduleInfo from '@/data/index';
+  import { scheduleInfo } from '@/data/index';
   import TableTrack from './SchedulerTableTrack.vue';
 
   export default {

@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
+import { eventInfo } from '@/data/index';
 import Home from './views/Home/Index.vue';
 import About from './views/Speakers/Index.vue';
 
@@ -20,7 +21,7 @@ export default new Router( {
     {
       path: '/tickets',
       beforeEnter() {
-        window.location.href = 'https://openexpoeurope.com/oe2018/register/';
+        window.location.href = eventInfo.ticketsURL;
       },
     },
   ],

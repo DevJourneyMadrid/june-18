@@ -1,14 +1,20 @@
 <template>
   <header class="header">
     <div class="title-container">
-      <h1>Titulo</h1>
-      <h3>Fecha</h3>
+      <h1>{{ data.title }}</h1>
+      <h3>{{ data.subtitle }}</h3>
     </div>
   </header>
 </template>
 <script>
   export default {
     name: 'HeaderJumbotron',
+    props: {
+      data: {
+        required: true,
+        type: Object,
+      },
+    },
   };
 </script>
 
