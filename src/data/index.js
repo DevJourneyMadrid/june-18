@@ -666,8 +666,8 @@ export const scheduleInfo = [
             type: 2,
             content: {
               title: '#El feliz developer (v. extendida)',
-              description: 'El Open Data comprende tantas fuentes, formatos y contenidos que, en ocasiones, encontrar la forma de tratarlo puede ser complicado. Python ofrece miles de posibilidades que pueden hacerte la vida mucho más fácil. En esta charla te enseñaremos algunos ejemplos en los que puedes usar Python para que tratar datos abiertos nunca más sea un dolor.',
-              tags: [ 'Open Data' ],
+              description: 'En esta charla hablaremos (y debatiremos) sobre cómo hacer que el trabajo en el mundo IT sea más razonable, humanizado, agradable y productivo; y cómo contribuyen a esto los proyectos Open Source.',
+              tags: [ 'Investigación', 'Open Data', 'Tech Innovation' ],
               speakers: [
                 {
                   name: 'Irene M. Morgado',
@@ -676,7 +676,43 @@ export const scheduleInfo = [
                   image: null,
                   socialLinks: {
                     twitter: 'https://twitter.com/IrnMM',
-                    linkedin: 'https://www.linkedin.com/in/irenemmorgado/'
+                    linkedin: 'https://www.linkedin.com/in/irenemmorgado/',
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '18',
+                min: '30',
+              },
+              end: {
+                hour: '20',
+                min: '00',
+              },
+            },
+          },
+        ],
+      },
+      {
+        displayName: 'Sala 2Byte',
+        max: 20,
+        items: [
+          {
+            type: 2,
+            content: {
+              title: 'Programación funcional en Rust con abstracciones sin coste',
+              description: 'Los principios de la programación funcional son cada vez más usados por los equipos de desarrollo y tenidos en cuenta en el diseño de nuevos lenguajes de programación. Estos principios ofrecen abstracciones que ayudan a producir un código más robusto y mantenible, pero estos beneficios han implicado una curva de aprendizaje muy pronunciada o un rendimiento en ejecución más bajo que con otros lenguajes. En esta charla exploraremos cómo el lenguaje de programación Rust consigue incluir propiedades funcionales útiles y, a la vez, permite al programador crear programas muy eficientes en tiempo de ejecución.',
+              tags: [ 'Investigación', 'Open Data', 'Tech Innovation' ],
+              speakers: [
+                {
+                  name: 'Carlos León',
+                  position: null,
+                  bio: 'Carlos León es profesor en el Departamento de Ingeniería del Software e Inteligencia Artificial en la Universidad Complutense de Madrid. Investiga en los campos de Creatividad Computacional y Sistemas Cognitivos, y ha desarrollado complejas arquitecturas para investigación científica con programación funcional. Carlos ha trabajado como investigador en Estados Unidos (Institute for Creative Technologies, University of Southern California), Reino Unido (Universidade de Aberdeen) y Alemania (Universidad de Hamburgo). Ha publicado varios artículos sobre cómo construir sistemas inteligentes, y también disfruta enseñando a programar videojuegos.',
+                  image: null,
+                  socialLinks: {
+                    twitter: 'https://twitter.com/clnznr',
+                    linkedin: 'https://es.linkedin.com/in/carlos-le%C3%B3n-1926a839',
                   },
                 },
               ],
