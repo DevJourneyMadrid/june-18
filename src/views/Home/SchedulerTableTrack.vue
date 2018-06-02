@@ -1,12 +1,12 @@
 <template>
   <div class="track-table">
-    <h4>{{ data.date }}</h4> <!--Formatear fecha-->
+    <h3 class="p-1 bg-light">{{ data.date }}</h3> <!--Formatear fecha-->
     <div class="tracks" v-for="(track, index) in data.tracks" :key="index">
       <table class="table table-bordered">
         <col width="78px"/>
         <thead>
         <tr>
-          <th scope="col">Hora</th>
+          <th scope="col" class="text-uppercase">Hora</th>
           <th scope="col" class="text-uppercase">{{ track.displayName }}</th>
         </tr>
         </thead>
