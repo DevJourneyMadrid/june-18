@@ -1,12 +1,12 @@
 <template>
-  <th scope="row" class="text-center">
+  <th scope="row">
     <p class="m-0 lead">
       <span>{{ el.time.start.hour }}</span>
-      <small>:{{ el.time.start.min }}</small>
+      <small class="text-muted">:{{ el.time.start.min }}</small>
     </p>
     <p class="m-0 lead">
       <span>{{ el.time.end.hour }}</span>
-      <small>:{{ el.time.end.min }}</small>
+      <small class="text-muted">:{{ el.time.end.min }}</small>
     </p>
   </th>
 </template>

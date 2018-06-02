@@ -3,7 +3,7 @@
     <h4>{{ data.date }}</h4> <!--Formatear fecha-->
     <div class="tracks" v-for="(track, index) in data.tracks" :key="index">
       <table class="table table-bordered">
-        <col width="100px"/>
+        <col width="78px"/>
         <thead>
         <tr>
           <th scope="col">Hora</th>
