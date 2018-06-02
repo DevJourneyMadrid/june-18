@@ -703,7 +703,7 @@ export const scheduleInfo = [
             content: {
               title: 'Programación funcional en Rust con abstracciones sin coste',
               description: 'Los principios de la programación funcional son cada vez más usados por los equipos de desarrollo y tenidos en cuenta en el diseño de nuevos lenguajes de programación. Estos principios ofrecen abstracciones que ayudan a producir un código más robusto y mantenible, pero estos beneficios han implicado una curva de aprendizaje muy pronunciada o un rendimiento en ejecución más bajo que con otros lenguajes. En esta charla exploraremos cómo el lenguaje de programación Rust consigue incluir propiedades funcionales útiles y, a la vez, permite al programador crear programas muy eficientes en tiempo de ejecución.',
-              tags: [ 'Investigación', 'Open Data', 'Tech Innovation' ],
+              tags: [ 'Functional Programming', 'Tech Innovation' ],
               speakers: [
                 {
                   name: 'Carlos León',
@@ -723,7 +723,37 @@ export const scheduleInfo = [
                 min: '30',
               },
               end: {
-                hour: '20',
+                hour: '19',
+                min: '00',
+              },
+            },
+          },
+          {
+            type: 2,
+            content: {
+              title: 'Programación funcional y Haskell',
+              description: '¿Es importante entender la programación funcional? ¿Qué nos puede aportar Haskell?',
+              tags: [ 'Functional Programming', 'Tech Innovation' ],
+              speakers: [
+                {
+                  name: 'Jose Luis Esteban',
+                  position: null,
+                  bio: 'Experiencia profesional fundamentalmente en C++, sistemas distribuidos de tiempo real. Amante de la programación funcional y de la programación concurrente. Eterno aprendiz',
+                  image: null,
+                  socialLinks: {
+                    twitter: 'https://twitter.com/clnznr',
+                    linkedin: 'https://es.linkedin.com/in/carlos-le%C3%B3n-1926a839',
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '18',
+                min: '30',
+              },
+              end: {
+                hour: '19',
                 min: '00',
               },
             },
@@ -743,9 +773,7 @@ export const scheduleInfo = [
             type: 2,
             content: {
               title: 'OSWGUILDS: Live Guilds',
-              description: 'Lo que haremos\n' +
-              '\n' +
-              '📌 Como siempre... dejamos este espacio para que los Guilds se sienten cara a cara y se arremanguen para empezar a planificar sus proyectos, idear, definir...lo que sea! 4 horas de curro seguido de cerca por algunos mentores de la comunidad OSWeekends ;)',
+              description: 'Lo que haremos: 📌 Como siempre... dejamos este espacio para que los Guilds se sienten cara a cara y se arremanguen para empezar a planificar sus proyectos, idear, definir...lo que sea! 4 horas de curro seguido de cerca por algunos mentores de la comunidad OSWeekends ;)',
               tags: [ 'OSW', 'Live Guilds', 'Proyectos' ],
               speakers: [
                 {
