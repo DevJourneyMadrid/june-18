@@ -28,7 +28,7 @@
             <div class="group">
               <h5 class="mt-4">¿Que tienes que madrugar?</h5>
               <p>
-                No te preocupes. Nosotros nos encargamos del desayuno ☕️.
+                Don't worry! Nosotros nos encargamos del desayuno ☕️.
                 <br/>
                 Y cuando termine el evento tendremos tiempo para hacer networking mientras nos tomamos unas cervezas o
                 refrescos.

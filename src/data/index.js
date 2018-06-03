@@ -12,49 +12,131 @@ export const scheduleInfo = [
         max: 200,
         items: [
           {
+            id: 0,
+            type: 1,
+            content: {
+              title: 'Registro y café bienvenida',
+              description: 'Si llegas tarde te quedas sin café 😜',
+            },
+            time: {
+              start: {
+                hour: '09',
+                min: '45',
+              },
+              end: {
+                hour: '10',
+                min: '30',
+              },
+            },
+          },
+          {
+            id: 1,
             type: 2,
             content: {
-              title: 'AireMAD',
-              description: 'AireMAD es un portal que nos muestra la información de contaminación en el aire, contaminación acústica, niveles de polen, niveles de gripe y el tiempo. Es una aplicación de código abierta desarrollada por Fictizia que utiliza los datos abiertos del Ayuntamiento de Madrid junto con otras fuentes oficiales y no oficiales.',
-              tags: [ 'Storage', 'Technological Innovation' ],
+              title: 'Seguridad en las APIs',
+              description: 'In a fast moving world where APIs are the cement of all new applications, proper security is a hard goal to reach. The presentation highlights 5 key principles to proper API Security.',
+              tags: [ 'APIs', 'Security' ],
               speakers: [
                 {
-                  name: 'Ulises Gascón',
-                  position: 'TPM at Google',
-                  bio: 'I am one of the co-organizers of the Open Source Weekends and I wrote the book "JavaScript, ¡Inspírate!" (JavaScript, Get inspired!). Currently my personal aim is to evangelize about Open Source. I believe that the Open Source can change the world. This is the reason why most of my software and hardware projects were released under Open Source licenses in GitHub. Since a very young age, I have been attracted by the world of web and computing to which I have dedicated all my career life till today.During the years I\'ve had different jobs as webmaster, developer, instructor and developer evangelist. Today I work as a freelance consultant and an instructor teaching about JavaScript, Node.js, Python e Internet of Things, among others... As a Full Stack Developer, I developed a lot of experience in fields like Internet of Things (IoT) with Open Hardware as Arduino or Raspberry Pi. Most of the time I code in JavaScript and Python.',
-                  image: '--',
+                  name: 'Isabelle Mauny',
+                  position: 'CTO at 42Crunch',
+                  bio: 'I am working for 42Crunch, a company providing an API security platform, putting security at the heart of APIs lifecycle: development, testing, deployment. I manage product management, product marketing as well as analysts relationship. Previously, I was working for WSO2 as VP of Product Strategy and Technical Evangelist for WSO2\'s open source platform, mainly in Europe.',
+                  image: 'isa.jpg',
                   socialLinks: {
-                    twitter: 'https://twitter.com/kom_256',
-                    github: 'https://github.com/UlisesGascon',
-                    website: 'https://medium.com/@ulisesGascon',
+                    linkedin: 'https://www.linkedin.com/in/isamauny/',
+                    website: 'https://www.42crunch.com/',
                   },
                 },
               ],
             },
             time: {
               start: {
-                hour: '13',
+                hour: '10',
                 min: '30',
               },
               end: {
-                hour: '13',
-                min: '50',
+                hour: '11',
+                min: '15',
               },
             },
           },
           {
-            type: 1,
+            id: 1,
+            type: 2,
             content: {
-              title: 'DESCANSO',
-              description: null,
+              title: 'Cloud Firestore, todo sobre la nueva BD de Firebase en 45min',
+              description: 'En esta charla contaré todo lo que hay que saber acerca de Cloud Firestore, la nueva generación de base de datos de Firebase: lo bueno, lo malo, cuando usarla y como sacar el mayor partido de su funcionalidad. Habrá ejemplos prácticos de como solucionar los casos más típicos que nos encontraremos en nuestros proyectos.',
+              tags: [ 'Firebase', 'Serverless', 'Base de datos', 'Javascript' ],
+              speakers: [
+                {
+                  name: 'Enrique García Navalón',
+                  position: 'Lead Engineer @ BICG',
+                  bio: 'Kike es ingeniero software y de datos cuya curiosidad le ha llevado a trabajar de muchos perfiles, desde web fullstack, microservicios con Docker, pipelines de datos en entorno serverless hasta CTO. Interesado desde siempre en la innovación y el producto, ha desarrollado toda su actividad en el mundo startup y emprendedor. Actualmente lidera el equipo de desarrollo en BICG.',
+                  image: 'garcianavalon.jpg',
+                  socialLinks: {
+                    github: 'https://github.com/garcianavalon',
+                    twitter: 'https://twitter.com/garcianavalon',
+                    linkedin: 'https://www.linkedin.com/in/garcianavalon/',
+                  },
+                },
+              ],
             },
             time: {
               start: {
-                hour: '14',
+                hour: '11',
+                min: '15',
+              },
+              end: {
+                hour: '12',
+                min: '00',
+              },
+            },
+          },
+          {
+            id: 1,
+            type: 2,
+            content: {
+              title: 'Stack Overflow en español: No todos hablan inglés',
+              description: 'Mientras el desarrollo de código se hace principalmente en inglés, muchos de los desarrolladores no dependen del inglés en la mayoría de sus conversaciones. Ven a aprender como una comunidad de desarrolladores en tu lengua natal puede hacer del internet un lugar mejor. ¡Solamente necesitamos que estés presente!',
+              tags: [ 'Comunidades' ],
+              speakers: [
+                {
+                  name: 'Juan Garza',
+                  position: 'Gerente, Equipo de Comunidades Internacionales @ StackOverflow',
+                  bio: 'Juan Garza nunca pensó que el tema de Community Management hubiera sido su carrera. Juan empezó su jornada profesional estudiando ingeniería eléctrica pero se dio cuenta que eso no era su verdadero llamamiento. Él se titulo con un B.S. en psicología con especialidad en biología. Su amor en ayudar a la gente lo guió a emprender la carrera de maestro de matemáticas, ciencias, y español. Al pasar algunos años en eso, descubrió el mundo de Community Management donde ha pasado 12 años. Él ahora considera que este campo le provee una oportunidad para servirle a una audiencia global. Juan es el gerente del equipo internacional de Stack Overflow donde se ocupa de mantener los sitios para los miembros que hablan el ruso, portugués, japonés, o español principalmente.',
+                  image: 'jgarza.jpg',
+                  socialLinks: {
+                    twitter: 'https://twitter.com/esStackOverflow',
+                    website: 'https://es.stackoverflow.com/',
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '12',
                 min: '00',
               },
               end: {
-                hour: '15',
+                hour: '12',
+                min: '45',
+              },
+            },
+          },
+          {
+            id: 0,
+            type: 1,
+            content: {
+              title: 'Networking',
+              description: '🍺',
+            },
+            time: {
+              start: {
+                hour: '12',
+                min: '45',
+              },
+              end: {
+                hour: '13',
                 min: '30',
               },
             },
