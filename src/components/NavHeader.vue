@@ -23,15 +23,14 @@
       return {
         navLinks: [
           { displayName: 'Home', to: '/' },
-          { displayName: 'Speakers', to: '/speakers' },
           { displayName: 'About', to: '/about' },
-          // { displayName: 'Entradas', to: '/tickets' },
         ],
       };
     },
   };
 </script>
-<style lang="stylus">
+
+<style lang="stylus" scoped>
 
   .wrapper
     display flex
@@ -65,6 +64,5 @@
           border-bottom 3px solid #2c3e50
         &.router-link-exact-active
           color #4dadf7
-          /*border-bottom 2px solid #4dadf7*/
 
 </style>

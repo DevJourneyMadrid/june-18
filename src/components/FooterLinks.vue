@@ -48,7 +48,7 @@
   };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   footer
     border-top 5px solid #41b883
     min-height 150px

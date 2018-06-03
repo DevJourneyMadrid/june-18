@@ -18,7 +18,7 @@
   };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   .header
     position relative
     background url("../../assets/img/bg1.jpg") no-repeat center center

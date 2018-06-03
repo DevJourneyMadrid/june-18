@@ -26,7 +26,7 @@
     },
   };
 </script>
-<style lang="stylus">
+<style lang="stylus" scoped>
   p.lead
     font-family monospace
     font-size 20px

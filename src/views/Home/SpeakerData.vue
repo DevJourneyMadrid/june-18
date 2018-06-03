@@ -53,7 +53,7 @@
   };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   .block-speaker
     margin-right 12px
     .img

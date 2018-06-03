@@ -84,7 +84,7 @@
   };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 
   .custom-hover-1,
   .custom-hover-2,

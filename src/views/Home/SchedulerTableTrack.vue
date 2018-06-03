@@ -41,7 +41,7 @@
     },
   };
 </script>
-<style lang="stylus">
+<style lang="stylus" scoped>
   .track-table
     margin-top 40px
 

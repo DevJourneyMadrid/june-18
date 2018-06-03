@@ -95,7 +95,7 @@
   };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   .count-down-timer
     padding-top 20px
     padding-bottom 20px
@@ -104,7 +104,6 @@
   .timer
     display grid
     grid-template-columns 1fr 1fr 1fr 1fr
-    grid-auto-columns 1fr
     grid-gap 15px
     .block
       grid-row: 1

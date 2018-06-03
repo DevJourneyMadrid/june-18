@@ -23,7 +23,7 @@
   };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   .sub-header
     // background: #4776E6;
 

@@ -47,7 +47,7 @@
   };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   section.about
     background-image: linear-gradient(to bottom right, #02b3e4, #02ccba);
     padding 40px 0

@@ -34,7 +34,7 @@
   };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   .schedule
     margin 20px 0
     .title
