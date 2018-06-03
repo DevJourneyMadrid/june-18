@@ -9,7 +9,7 @@
           que dura el evento.
         </p>
 
-        <h3 id="¿qué-es-open-source-weekends" class="mt-4">¿Qué es Open Source Weekends?</h3>
+        <h3 id="¿qué-es-open-source-weekends" class="mt-4">¿Qué es Open Source Weekends? 🤔</h3>
         <p>OSW es una comunidad tecnológica que promueve el intercambio de conocimiento y la colaboración, lo que se
           gestó desde su creación. Uno de los fundadores, Jose, era jefe del equipo de seguridad de Campus y <a
             href="https://www.elconfidencial.com/tecnologia/2017-05-23/guardia-seguridad-google-programador-desarrollador-startup_1385286/">siempre
@@ -28,7 +28,7 @@
           respeto hacia todas las personas, nunca predeterminado ni forzado por los miembros de la organización, lo que
           añade más autenticidad a todo lo que surge alrededor del tema de la diversidad e inclusión.</p>
 
-        <h3 id="¿qué-se-hará-durante-el-ocsummit" class="mt-4">¿Qué se hará durante el OCSummit?</h3>
+        <h3 id="¿qué-se-hará-durante-el-ocsummit" class="mt-4">¿Qué se hará durante el OCSummit? 🤔</h3>
         <p>Un Open Community Summit es un evento de comunidades donde Open Source Weekends invita a las comunidades
           tecnológicas más destacadas del panorama a exponer lo que hacen durante una tarde.</p>
         <p>En esta ocasión contaremos con <a href="https://twitter.com/HaskellMAD">HaskellMAD</a>, <a

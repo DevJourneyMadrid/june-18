@@ -11,7 +11,7 @@
             <h4 class="pt-2 mb-0">6 y 7 Junio 2018</h4>
           </div>
           <div class="item">
-            <i class="fa fa-globe text-primary" aria-hidden="true"></i>
+            <i class="fa fa-map-marker text-primary" aria-hidden="true"></i>
             <span class="lead">
                 ¿Dónde?
               </span>

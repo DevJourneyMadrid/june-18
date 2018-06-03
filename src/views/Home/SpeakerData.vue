@@ -1,7 +1,7 @@
 <template>
   <div class="speaker-item">
     <div class="img">
-      <img src="@/assets/img/speakers/image.png" alt="user image">
+      <!--<img src="@/assets/img/speakers/image.png" alt="user image">-->
     </div>
     <div class="speaker-info">
       <h6 class="name">{{ speaker.name }}</h6>

@@ -1,5 +1,5 @@
 <template>
-  <header class="header">
+  <header class="header" :class="classImage">
     <div class="title-container pl-4 pr-4">
       <h1 class="fw-900" v-if="text.title">{{ text.title }}</h1>
       <h2 v-if="text.subtitle">{{ text.subtitle }}</h2>
@@ -10,7 +10,7 @@
   export default {
     name: 'ImageBlock',
     props: {
-      imagePath: {
+      classImage: {
         required: false,
         type: String,
       },
@@ -19,23 +19,23 @@
         type: Object,
       },
     },
-    data() {
-      return {
-        msg: 'Hola',
-      };
-    },
   };
 </script>
 <style lang="stylus" scoped>
   .header
     position relative
-    background url("../assets/img/bg1.jpg") no-repeat center center
-    -webkit-background-size: cover
-    background-size: cover
     display flex
     height 200px
     text-align center
     align-items center
+    &.img1
+      background url("../assets/img/bg1.jpg") no-repeat center center
+      -webkit-background-size: cover
+      background-size: cover
+    &.img2
+      background url("../assets/img/bg1.jpg") no-repeat center center
+      -webkit-background-size: cover
+      background-size: cover
     &:after
       content ''
       position absolute

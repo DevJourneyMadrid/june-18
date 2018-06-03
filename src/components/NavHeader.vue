@@ -61,8 +61,9 @@
         transition: all 0.2s ease
         &:hover
           text-decoration none
-          border-bottom 3px solid #2c3e50
+          border-bottom 3px solid #ccc
         &.router-link-exact-active
           color #4dadf7
+          border-bottom 3px solid #ccc
 
 </style>

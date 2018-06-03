@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <ImageBlock imagePath="bg1" :text="text"/>
+    <ImageBlock classImage="img1" :text="text"/>
     <InfoBlock/>
     <TextBlock/>
   </div>
