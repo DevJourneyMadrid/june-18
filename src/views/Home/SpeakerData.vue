@@ -57,9 +57,9 @@
   .block-speaker
     margin-right 12px
     .img
+      padding 0 10px
       img
         width 100%
-        height 100%
 
   .speaker-info
     margin-top 10px

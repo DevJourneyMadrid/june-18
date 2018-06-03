@@ -96,7 +96,7 @@
     box-shadow 0 6px 4px -4px inset #ddd
 
   .custom-hover-2:hover
-    box-shadow 0 6px 4px -4px inset #42b983
+    background-color #fafafa
 
   .cont
     display grid

@@ -1,7 +1,7 @@
 <template>
   <section class="schedule">
     <div class="container">
-      <h3 class="title">Agenda</h3>
+      <h2 class="title text-uppercase">Agenda</h2>
       <div class="content-wrapper" v-for="(item, index) in info" :key="index">
         <TableTrack :data="item"/>
       </div>
