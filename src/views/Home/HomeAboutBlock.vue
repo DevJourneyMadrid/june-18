@@ -14,8 +14,8 @@
             </div>
             <div class="group">
               <h4 class="mt-4">Pero.. ¿Quién viene? 🤔</h4>
-              <p>
-                En esta edición contamos con 3 grandísimos ponentes. Van a estar con nosotros ponentes de talla
+              <p class="mb-0">
+                En esta edición contamos con 3 grandísimos personas. Van a estar con nosotros ponentes de talla
                 internacional, nada más y nada menos que 😎:
               </p>
               <ul>
@@ -28,8 +28,10 @@
             <div class="group">
               <h5 class="mt-4">¿Que tienes que madrugar?</h5>
               <p>
-                No te preocupes. Nosotros nos encargamos del desayuno. Y cuando termine el evento tendremos tiempo para
-                hacer networking mientras nos tomamos unas cervezas o refrescos.
+                No te preocupes. Nosotros nos encargamos del desayuno ☕️.
+                <br/>
+                Y cuando termine el evento tendremos tiempo para hacer networking mientras nos tomamos unas cervezas o
+                refrescos.
               </p>
               <p>
                 ¿Todavía tienes dudas? No te lo pienses más. Tú solo saca tu <a
@@ -38,11 +40,11 @@
               </p>
             </div>
 
-            <div class="d-flex justify-content-end">
-              <router-link to="/about" class="btn btn-primary btn-sm btn-outline-primary" role="button">
-                Ver más
-              </router-link>
-            </div>
+            <!--<div class="d-flex justify-content-end">-->
+            <!--<router-link to="/about" class="btn btn-primary btn-sm btn-outline-primary" role="button">-->
+            <!--Ver más-->
+            <!--</router-link>-->
+            <!--</div>-->
 
           </div>
           <div class="item-2"></div>
@@ -68,9 +70,9 @@
         display grid
         grid-template-columns 2fr 1fr
         .item-1
-          padding 20px
+          padding 25px
         .item-2
-          background: url("../../assets/img/about-bg.jpg") center center no-repeat
+          background: url("../../assets/img/campus-madrid.jpg") center center no-repeat
           -webkit-background-size: cover
           background-size: cover
           -webkit-border-top-right-radius 5px
