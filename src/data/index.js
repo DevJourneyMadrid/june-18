@@ -5,7 +5,7 @@
 // Type 3 no speaker but has info
 export const scheduleInfo = [
   {
-    date: '06/06/2018', // DD/MM/YYYY
+    date: '06/06/2018 (Día 1)',
     tracks: [
       {
         displayName: 'Demo Corner by OSW',
@@ -963,7 +963,7 @@ export const scheduleInfo = [
     ],
   },
   {
-    date: '07/06/2018', // DD/MM/YYYY
+    date: '07/06/2018 (Día 2)',
     tracks: [
       {
         displayName: 'Demo Corner by OSW',
@@ -1006,7 +1006,7 @@ export const scheduleInfo = [
 ];
 
 export const eventInfo = {
-  title: 'Open Comunnities Summit by #OSW',
+  title: 'Open Comunnities Summit',
   subtitle: '6 y 7 Junio 2018',
   ticketsURL: 'https://openexpoeurope.com/oe2018/register/',
   ticketCode: 'GOE18250',

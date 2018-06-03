@@ -6,16 +6,16 @@
           <div class="item-1">
             <div class="group">
               <h4>¿Qué es Open Source Weekends?</h4>
-              <p>OSW es una comunidad tecnológica con más de 2500 personas que promueve el intercambio de conocimiento y
+              <p><a href="https://twitter.com/os_weekends" target="_blank">OSW</a> es una comunidad tecnológica con más
+                de 2500 personas que promueve el intercambio de conocimiento y
                 la colaboración. Siempre está abierta y es inclusiva con todo tipo de perfiles, tanto por sector como
                 por nivel de conocimientos.</p>
             </div>
             <div class="group">
               <p class="mt-4">
                 Para esta edición desde la <a href="https://openexpoeurope.com/es/" target="_blank">Open Expo</a>, han
-                confiado la representación de las comunidades tecnológicas a
-                <a href="https://twitter.com/os_weekends" target="_blank">Open Source Weekends</a> (a.k.a.
-                <code>OSW</code>) que se ofrecieron a organizar un <b>Open Communities Summit</b> durante el día y medio
+                confiado la representación de las comunidades tecnológicas a Open Source Weekends que se ofrecieron a
+                organizar un <b>Open Communities Summit</b> durante el día y medio
                 que dura el evento.
               </p>
             </div>
@@ -50,7 +50,7 @@
 <style lang="stylus">
   section.about
     background-image: linear-gradient(to bottom right, #02b3e4, #02ccba);
-    padding 20px
+    padding 40px 0
     .bg
       background-color white;
       border-radius 5px

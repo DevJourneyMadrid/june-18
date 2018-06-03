@@ -4,9 +4,9 @@
       <div class="block">
         <p class="shadow-text mt-0 mb-0 mr-4">
           Consigue tu entrada GRATIS con este código:
-          <span class="badge badge-pill badge-light">{{ data.ticketCode }}</span>
+          <span class="badge badge-pill badge-secondary">{{ data.ticketCode }}</span>
         </p>
-        <router-link to="/tickets" class="btn btn-outline-light btn-lg" role="button"> {{ data.callToActionMsg }} </router-link>
+        <router-link to="/tickets" class="btn btn-outline-primary btn custom-btn" role="button"> {{ data.callToActionMsg }} </router-link>
       </div>
     </div>
   </section>
@@ -25,17 +25,21 @@
 
 <style lang="stylus">
   .sub-header
-    background: #4776E6;
+    // background: #4776E6;
 
     .block
       position relative
       display flex
       align-items center
       justify-content flex-end
-      padding 15px
+      padding 15px 0
+
+      .btn.custom-btn
+        border-width 3px
+        font-weight bolder
 
       .shadow-text
-        color white
+        color #333
         letter-spacing 1px
         font-size 17px
         font-weight 500
