@@ -24,6 +24,7 @@
         navLinks: [
           { displayName: 'Home', to: '/' },
           { displayName: 'Speakers', to: '/speakers' },
+          { displayName: 'About', to: '/about' },
           // { displayName: 'Entradas', to: '/tickets' },
         ],
       };

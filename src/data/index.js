@@ -1010,5 +1010,8 @@ export const eventInfo = {
   subtitle: '6 y 7 Junio 2018',
   ticketsURL: 'https://openexpoeurope.com/oe2018/register/',
   ticketCode: 'GOE18250',
-  callToActionMsg: 'Comprar entrada',
+  callToActionMsg: 'Entradas',
+  showContdown: true,
+  startTime: '06/06/2018 09:00',
+  startTimeFormat: 'DD/MM/YYYY HH:mm',
 };

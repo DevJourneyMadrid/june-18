@@ -27,7 +27,6 @@
     height 200px
     text-align center
     align-items center
-    border-bottom 1px solid #ddd
     .title-container
       display block
       width 100%
