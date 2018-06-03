@@ -17,8 +17,8 @@
     data() {
       return {
         text: {
-          title: 'Open Source Weekends',
-          subtitle: '#OCSummit18',
+          title: 'Dev Journey Madrid',
+          subtitle: '#DJM18',
         },
       };
     },
