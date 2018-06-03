@@ -21,15 +21,7 @@
     data() {
       return {
         info: [],
-        speakers: [],
       };
-    },
-    filter: {
-      formatDate( value ) {
-        const format = 'dd/mm';
-        const currentFormat = 'DD/MM/YYYY';
-        return this.$moment( value, currentFormat ).format( format );
-      },
     },
   };
 </script>
