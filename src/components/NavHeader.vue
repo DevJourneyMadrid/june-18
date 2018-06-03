@@ -38,7 +38,7 @@
     justify-content space-between
 
   #nav
-    padding 20px
+    padding 10px 20px
     background-color #fafafa
 
     .logo
@@ -55,15 +55,16 @@
       display inline-block
       list-style none
       margin-left 20px
-      font-size 22px
+      /*font-size 22px*/
       a
         font-weight bold
         color #2c3e50
+        transition: all 0.2s ease
         &:hover
           text-decoration none
-          border-bottom 2px solid #2c3e50
+          border-bottom 3px solid #2c3e50
         &.router-link-exact-active
-          color #42b983
-          border-bottom 2px solid #42b983
+          color #4dadf7
+          /*border-bottom 2px solid #4dadf7*/
 
 </style>
