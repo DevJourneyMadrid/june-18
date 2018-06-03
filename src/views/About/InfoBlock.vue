@@ -8,7 +8,7 @@
             <span class="lead">
                 ¿Cuándo?
               </span>
-            <h4 class="pt-2 mb-0">6 y 7 Junio 2018</h4>
+            <h4 class="pt-2 mb-0">9 Junio de 2018</h4>
           </div>
           <div class="item">
             <i class="fa fa-map-marker text-primary" aria-hidden="true"></i>
@@ -16,9 +16,8 @@
                 ¿Dónde?
               </span>
             <h4 class="pt-2 mb-0">
-              <a target="_blank" class="text-black-link" href="https://goo.gl/maps/4DjZRaFn9No">Calle
-                Cifuentes, 5, 28021 Madrid
-                <small>(España)</small>
+              <a target="_blank" class="text-black-link" href="https://goo.gl/maps/Rpti7CssqKU2">
+                Campus Madrid, Calle de Manzanares, 2 <small>(España)</small>
               </a></h4>
           </div>
         </div>
@@ -43,7 +42,7 @@
 
   .grid-block
     display grid
-    grid-template-columns 1fr 1fr
+    grid-template-columns 2fr 3fr
     grid-column-gap 10px
 
   .text-black-link

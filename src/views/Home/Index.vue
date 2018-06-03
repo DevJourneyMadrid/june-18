@@ -4,7 +4,7 @@
     <CountDownTimer :format="info.startTimeFormat" :date="info.startTime"/>
     <HomeSubHeader :data="info"/>
     <AboutBlock/>
-    <Scheduler/>
+    <HomeScheduleBlock/>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
   import { eventInfo } from '@/data/index';
   import HomeHeader from './HomeHeaderBlock.vue';
   import HomeSubHeader from './HomeSubHeaderBlock.vue';
-  import Scheduler from './HomeScheduleBlock.vue';
+  import HomeScheduleBlock from './HomeScheduleBlock.vue';
   import AboutBlock from './HomeAboutBlock.vue';
   import CountDownTimer from './HomeCountDownTimer.vue';
 
@@ -29,7 +29,7 @@
     components: {
       CountDownTimer,
       AboutBlock,
-      Scheduler,
+      HomeScheduleBlock,
       HomeHeader,
       HomeSubHeader,
     },

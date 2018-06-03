@@ -35,13 +35,14 @@
 
 <script>
   export default {
-    name: 'NavHeader',
+    name: 'FooterLinks',
     data() {
       return {
+        info: {},
         linksList: [
-          { displayName: 'Github', to: 'https://github.com/baumannzone/open-expo-schedule' },
-          { displayName: '#OSW', to: 'http://osweekends.com/' },
-          { displayName: 'Ayuda Entradas', to: 'https://cloud.osweekends.com/index.php/s/bBcQ6TpfQozgWGo#pdfviewer' },
+          { displayName: 'Github', to: 'https://github.com/DevJourneyMadrid/june-18' },
+          { displayName: '#DJM', to: 'https://github.com/DevJourneyMadrid' },
+          { displayName: 'Entradas', to: 'https://devjourneymadrid18.eventbrite.es' },
         ],
       };
     },
@@ -50,7 +51,7 @@
 
 <style lang="stylus" scoped>
   footer
-    border-top 5px solid #41b883
+    border-top 5px solid #4dadf7
     min-height 150px
     padding-top 20px
     padding-bottom 20px
@@ -62,7 +63,7 @@
       margin-right 15px
 
   .el-cursor
-    cursor url("../assets/img/cursor.png"), auto;
+    cursor url("../assets/img/cursor.png") , auto;
 
   .social-links
     a.github

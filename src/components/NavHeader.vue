@@ -3,7 +3,7 @@
     <div class="wrapper">
       <div class="logo">
         <router-link to="/">
-          <img src="../assets/img/logo.png" alt="Dev Journey Madrid Logo">
+          <img src="../assets/img/djm-logo.png" alt="Dev Journey Madrid Logo">
         </router-link>
       </div>
       <div class="items">
