@@ -3,18 +3,18 @@
     <div class="container">
       <h2 class="title text-uppercase">Agenda</h2>
       <div class="content-wrapper" v-for="(item, index) in info" :key="index">
-        <TableTrack :data="item"/>
+        <ScheduleTable :data="item"/>
       </div>
     </div>
   </section>
 </template>
 <script>
   import { scheduleInfo } from '@/data/index';
-  import TableTrack from './SchedulerTableTrack.vue';
+  import ScheduleTable from './HomeScheduleTable.vue';
 
   export default {
     name: 'Scheduler',
-    components: { TableTrack },
+    components: { ScheduleTable },
     created() {
       this.info = scheduleInfo;
     },

@@ -1,21 +1,20 @@
 <template>
   <div class="home">
-    <HeaderJumbotron :data="info"/>
+    <HomeHeader :data="info"/>
     <CountDownTimer :format="info.startTimeFormat" :date="info.startTime"/>
-    <SubHeaderTickets :data="info"/>
+    <HomeSubeader :data="info"/>
     <AboutBlock/>
     <Scheduler/>
   </div>
 </template>
 
 <script>
-
   import { eventInfo } from '@/data/index';
-  import HeaderJumbotron from './HeaderJumbotron.vue';
-  import SubHeaderTickets from './SubHeaderBlock.vue';
-  import Scheduler from './Scheduler.vue';
-  import AboutBlock from './AboutBlock.vue';
-  import CountDownTimer from './CountDownTimer.vue';
+  import HomeHeader from './HomeHeaderBlock.vue';
+  import HomeSubeader from './HomeSubHeaderBlock.vue';
+  import Scheduler from './HomeScheduleBlock.vue';
+  import AboutBlock from './HomeAboutBlock.vue';
+  import CountDownTimer from './HomeCountDownTimer.vue';
 
   export default {
     name: 'home',
@@ -31,8 +30,8 @@
       CountDownTimer,
       AboutBlock,
       Scheduler,
-      HeaderJumbotron,
-      SubHeaderTickets,
+      HomeHeader,
+      HomeSubeader,
     },
   };
 </script>

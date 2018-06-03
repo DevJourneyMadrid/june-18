@@ -2,11 +2,14 @@
   <section class="sub-header">
     <div class="container">
       <div class="block">
-        <p class="shadow-text mt-0 mb-0 mr-4">
-          Consigue tu entrada GRATIS con este código:
-          <span class="badge badge-pill badge-secondary">{{ data.ticketCode }}</span>
+        <p class="shadow-text mt-0 mb-0 mr-3">
+          Consigue tu entrada <strong>GRATIS</strong> aquí
+          <!--<span class="badge badge-pill badge-secondary">{{ data.ticketCode }}</span>-->
         </p>
-        <router-link to="/tickets" class="btn btn-outline-primary btn custom-btn" role="button"> {{ data.callToActionMsg }} </router-link>
+        <router-link to="/tickets"
+                     class="btn btn-outline-primary btn custom-btn"
+                     role="button"> {{ data.callToActionMsg }}
+        </router-link>
       </div>
     </div>
   </section>
@@ -25,8 +28,6 @@
 
 <style lang="stylus" scoped>
   .sub-header
-    // background: #4776E6;
-
     .block
       position relative
       display flex
@@ -39,11 +40,9 @@
         font-weight bolder
 
       .shadow-text
-        color #333
-        letter-spacing 1px
         font-size 17px
         font-weight 500
-        span
-          text-shadow none
+        color #333
+        letter-spacing 1px
 
 </style>

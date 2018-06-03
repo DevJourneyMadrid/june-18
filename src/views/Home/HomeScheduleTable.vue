@@ -22,8 +22,8 @@
   </div>
 </template>
 <script>
-  import TimeSlot from './TimeSlot.vue';
-  import ContentSlot from './ContentSlot.vue';
+  import TimeSlot from './HomeScheduleTableTime.vue';
+  import ContentSlot from './HomeScheduleTableContent.vue';
 
   export default {
     name: 'TableTrack',

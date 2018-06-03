@@ -54,7 +54,7 @@
 </template>
 
 <script>
-  import SpeakerData from './SpeakerData.vue';
+  import SpeakerData from './HomeScheduleTableContentSpeaker.vue';
 
   export default {
     name: 'ContentSlot',
