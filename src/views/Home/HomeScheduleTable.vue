@@ -44,6 +44,11 @@
 <style lang="stylus" scoped>
   .track-table
     margin-top 40px
+  @media (max-width: 500px)
+    td
+      display block
+    th
+      display block
 
 
 </style>

@@ -101,6 +101,10 @@
   .cont
     display grid
     grid-template-columns 150px 1fr
+  @media (max-width: 500px)
+    .cont
+      grid-template-columns 1fr
+      grid-template-rows 10% 1fr
 
   .tags
     display flex
