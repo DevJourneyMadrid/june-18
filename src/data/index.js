@@ -33,9 +33,9 @@ export const scheduleInfo = [
             id: 1,
             type: 2,
             content: {
-              title: 'Seguridad en las APIs',
-              description: 'In a fast moving world where APIs are the cement of all new applications, proper security is a hard goal to reach. The presentation highlights 5 key principles to proper API Security.',
-              tags: [ 'APIs', 'Security' ],
+              title: 'La protección de APIs no es tan difícil...',
+              description: 'Nos pasa a todos: hay presión para sacar funcionalidad, y tiene que estar todo listo para ayer.  ¿Cuánto tiempo tenemos para dedicarnos a la seguridad? La verdad, poca. En esta charla te damos pasos prácticos para que te asegures de que has hecho lo correcto en tu código para afrontar problemas y encontrar los fallos de seguridad como con cualquier otro: lo antes posible.',
+              tags: [ 'APIs', 'Security', 'SecDevOps', 'OWASP' ],
               speakers: [
                 {
                   name: 'Isabelle Mauny',
