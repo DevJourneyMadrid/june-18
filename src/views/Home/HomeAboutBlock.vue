@@ -81,4 +81,11 @@
           -moz-border-radius-bottomright 5px
           border-top-right-radius 5px
           border-bottom-right-radius 5px
+      @media (max-width: 500px)
+        .grid-block
+          grid-template-columns 1fr
+          grid-template-rows 1fr 200px
+          .item-2
+            -webkit-background-size: 200px
+            background-size: 100% 200px
 </style>
