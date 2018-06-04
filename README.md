@@ -1,2 +1,2 @@
-# open-expo-schedule
-Schedule OSW - Open Expo #18
+#Dev Journey Madrid
+Eventazo Junio #2018
