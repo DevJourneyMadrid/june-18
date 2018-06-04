@@ -13,8 +13,8 @@ Eventazo Junio #2018 - https://devjourneymad18.netlify.com/
 | Hora          | Sala - Auditorio Principal             |
 | ------------- | -------------------------------------- |
 | 10:00 - 10:30 | Entrada y Desayuno                     |
-| 10:30 - 11:45 | Isabelle Mauny - La protección de APIs no es tan difícil...  |
-| 11:45 - 12:30 | Kike Garcia Navalon - Firestore        |
-| 12:30 - 13:15 | Juan Garza - Stackoverflow en Español  |
-| 13:15 - 14:00 | Juan Garza - Stackoverflow en Español  |
+| 10:30 - 11:15 | Isabelle Mauny - La protección de APIs no es tan difícil...  |
+| 11:15 - 12:00 | Kike Garcia Navalon - Firestore        |
+| 12:00 - 12:45 | Juan Garza - Stackoverflow en Español  |
+| 12:45 - 13:30 | Networking & Beers -                   |
 
