@@ -7,13 +7,13 @@
           <p>
             El sábado 9 de Junio, en <a href="https://www.campus.co/madrid/es?ref=DevJourneyMad" target="_blank">Campus
             Madrid</a> celebramos el <strong>Dev Journey Madrid #2018</strong>. Un evento para ir cerrando la
-            temporada de charlas, meetups, conferencias, ... con un buen sabor de boca.
+            temporada de charlas, meetups, conferencias... con un buen sabor de boca.
           </p>
         </div>
         <div class="group">
           <h4 class="mt-4">Pero.. ¿Quién viene? 🤔</h4>
           <p class="mb-0">
-            En esta edición contamos con 3 grandísimos personas. Van a estar con nosotros ponentes de talla
+            En esta edición contamos con 3 grandísimas personas. Van a estar con nosotros ponentes de talla
             internacional, nada más y nada menos que 😎:
           </p>
           <ul>
@@ -24,7 +24,7 @@
           </ul>
         </div>
         <div class="group">
-          <h5 class="mt-4">¿Que tienes que madrugar?</h5>
+          <h4 class="mt-4">¿Que tienes que madrugar?</h4>
           <p>
             Don't worry! Nosotros nos encargamos del desayuno ☕️.
             <br/>

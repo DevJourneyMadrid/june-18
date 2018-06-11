@@ -1,7 +1,7 @@
 <template>
   <section class="count-down-timer">
-    <div class="container">
-      <div class="timer">
+    <div class="container mb-1 mt-1">
+      <div class="timer" v-if="showTimer">
         <div class="block">
           <div class="bg">
             <span class="digit">{{ days }}</span>
@@ -27,6 +27,19 @@
           </div>
         </div>
       </div>
+      <template v-else>
+        <div class="text-center">
+          <p class="lead mb-0">Sigue el evento en <a href="https://twitter.com/baumannzone">twitter</a> con el siguiente
+            hashtag: </p>
+          <h3 class="mb-3">
+            <a href="https://twitter.com/hashtag/DevJourneyMad18?src=hash" target="_blank">#DevJourneyMad18</a>
+          </h3>
+          <p class="lead mb-0">Las fotos con Rambo 🐶 con el hashtag:</p>
+          <h3>
+            <a href="">#RamboMabmboDJM18</a>
+          </h3>
+        </div>
+      </template>
     </div>
   </section>
 </template>

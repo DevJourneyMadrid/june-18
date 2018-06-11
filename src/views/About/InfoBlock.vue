@@ -9,6 +9,7 @@
                 ¿Cuándo?
               </span>
             <h4 class="pt-2 mb-0">9 Junio de 2018</h4>
+            <h6 class="mt-0">A las 10:00hs</h6>
           </div>
           <div class="item">
             <i class="fa fa-map-marker text-primary" aria-hidden="true"></i>

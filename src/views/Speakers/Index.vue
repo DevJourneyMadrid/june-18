@@ -1,5 +1,5 @@
 <template>
   <div class="about">
-    <h1>Speakers page</h1>
+    <h1>Blog page</h1>
   </div>
 </template>

@@ -61,7 +61,7 @@ export const scheduleInfo = [
             },
           },
           {
-            id: 1,
+            id: 2,
             type: 2,
             content: {
               title: 'Cloud Firestore, todo sobre la nueva BD de Firebase en 45min',
@@ -93,7 +93,7 @@ export const scheduleInfo = [
             },
           },
           {
-            id: 1,
+            id: 3,
             type: 2,
             content: {
               title: 'Stack Overflow en español: No todos hablan inglés',
@@ -124,7 +124,7 @@ export const scheduleInfo = [
             },
           },
           {
-            id: 0,
+            id: 4,
             type: 1,
             content: {
               title: 'Networking',
@@ -155,5 +155,5 @@ export const eventInfo = {
   callToActionMsg: 'Entradas',
   showContdown: true,
   startTime: '09/06/2018 10:00',
-  startTimeFormat: 'DD/MM/YYYY HH:mm',
+  startTimeFormat: 'DD/MM/YYYY HH:mm', // Moment 
 };
