@@ -15,7 +15,7 @@ export const scheduleInfo = [
             id: 0,
             type: 1,
             content: {
-              title: 'Café y bienvenida',
+              title: 'Registro y café',
               description: 'Si llegas tarde te quedas sin café 😜',
             },
             time: {
@@ -25,12 +25,53 @@ export const scheduleInfo = [
               },
               end: {
                 hour: '10',
-                min: '30',
+                min: '20',
               },
             },
           },
           {
             id: 1,
+            type: 2,
+            content: {
+              title: 'Apertura del evento',
+              description: 'Presentación y bienvenida por Jorge Baumann y Rambo Mambo',
+              tags: [ 'RamboTheDog', '🐶' ],
+              speakers: [
+                {
+                  name: 'Jorge Baumann',
+                  position: 'FullStack developer',
+                  bio: 'Organizador del evento. Full Stack developer. CSS ninja.',
+                  image: 'baumannzone.jpg',
+                  socialLinks: {
+                    github: 'https://github.com/baumannzone',
+                    twitter: 'https://twitter.com/baumannzone',
+                    linkedin: 'https://www.linkedin.com/in/baumannzone/',
+                  },
+                },
+                {
+                  name: 'Rambo Mambo',
+                  position: 'Dev Journey Madrid #18 co-organizer',
+                  bio: 'Main speaker & best friend',
+                  image: 'ramboMambo.jpg',
+                  socialLinks: {
+                    website: 'https://slides.com/baumannzone/devjourneymadrid18#/',
+                  },
+                },
+              ],
+            },
+            time: {
+              start: {
+                hour: '10',
+                min: '20',
+              },
+              end: {
+                hour: '10',
+                min: '30',
+              },
+            },
+          },
+          {
+            id: 2,
             type: 2,
             content: {
               title: 'La protección de APIs no es tan difícil...',
@@ -61,7 +102,7 @@ export const scheduleInfo = [
             },
           },
           {
-            id: 2,
+            id: 3,
             type: 2,
             content: {
               title: 'Cloud Firestore, todo sobre la nueva BD de Firebase en 45min',
@@ -93,7 +134,7 @@ export const scheduleInfo = [
             },
           },
           {
-            id: 3,
+            id: 4,
             type: 2,
             content: {
               title: 'Stack Overflow en español: No todos hablan inglés',
@@ -124,11 +165,11 @@ export const scheduleInfo = [
             },
           },
           {
-            id: 4,
+            id: 5,
             type: 1,
             content: {
-              title: 'Networking',
-              description: '🍺',
+              title: 'Networking & Beers',
+              description: '🍺 Cervezas y refrescos patrocinados por Open Source Weekends',
             },
             time: {
               start: {
