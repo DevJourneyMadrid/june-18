@@ -15,7 +15,7 @@ export const scheduleInfo = [
             id: 0,
             type: 1,
             content: {
-              title: 'Registro y café',
+              title: 'Café y bienvenida',
               description: 'Si llegas tarde te quedas sin café 😜',
             },
             time: {
