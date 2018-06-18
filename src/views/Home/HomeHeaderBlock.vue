@@ -1,8 +1,16 @@
 <template>
-  <header class="header">
+  <header class="header" itemscope itemtype="http://schema.org/Event">
     <div class="title-container pl-4 pr-4">
-      <h1 class="fw-900">{{ data.title }}</h1>
+      <h1 class="fw-900" itemprop="name">{{ data.title }}</h1>
       <h2>{{ data.subtitle }}</h2>
+      <time itemprop="startDate" datetime="2018-06-09"></time>
+      <time itemprop="endDate" datetime="2018-06-09"></time>
+      <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+        <span itemprop="name">Campus Madrid</span>
+        <span class="mr-2 ml-2">-</span>
+        <span class="mr-2" itemprop="streetAddress">C/ Moreno Nieto 2</span>
+        <span itemprop="addressLocality">(Madrid)</span>
+      </div>
     </div>
   </header>
 </template>
