@@ -24,6 +24,7 @@
         navLinks: [
           { displayName: 'Home', to: '/' },
           { displayName: 'About', to: '/about' },
+          { displayName: 'Blog', to: '/blog' },
         ],
       };
     },

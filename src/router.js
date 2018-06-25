@@ -5,6 +5,7 @@ import Home from './views/Home/Index.vue';
 import About from './views/About/Index.vue';
 import Speakers from './views/Speakers/Index.vue';
 import Blog from './views/Blog/Index.vue';
+import Post from './views/Blog/Post/Index.vue';
 
 Vue.use( Router );
 
@@ -24,6 +25,11 @@ export default new Router( {
       path: '/blog',
       name: 'blog',
       component: Blog,
+    },
+    {
+      path: '/blog/:id',
+      name: 'post',
+      component: Post,
     },
     {
       path: '/about',
