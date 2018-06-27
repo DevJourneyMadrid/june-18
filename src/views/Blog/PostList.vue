@@ -19,9 +19,7 @@
       },
     },
     data() {
-      return {
-        img: [],
-      };
+      return {};
     },
     methods: {
       goTo( slug ) {

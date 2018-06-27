@@ -24,6 +24,20 @@ const articles = [
       authorLink: 'https://twitter.com/baumannzone',
     },
   },
+  {
+    id: 1,
+    slug: 'slides-dev-journey-madrid-2018',
+    title: 'Slides del evento',
+    content: '<h4>Hola de nuevo!</h4><p>Desde </p>',
+    image: 'img.png',
+    tags: [ 'rambo', 'cool' ],
+    meta: {
+      description: '<p>todos... </p>',
+      published: '24/06/2018',
+      authorName: 'Jorge Baumann',
+      authorLink: 'https://twitter.com/baumannzone',
+    },
+  },
 ];
 
 export default articles;
