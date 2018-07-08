@@ -1,8 +1,9 @@
 <template>
-  <div class="blog-page">
-    <ImageBlock :text="text" classImage="img1"/>
+  <div class="post-page">
+    <ImageBlock :text="text" classImage="bg-1"/>
+    <br>
     <div class="container">
-      <PostCard :post="post"/>
+      <PostContent :post="post"/>
     </div>
   </div>
 </template>
@@ -10,7 +11,7 @@
 
 <script>
   import ImageBlock from '@/components/ImageBlock.vue';
-  import PostCard from '../PostCard.vue';
+  import PostContent from './PostContent.vue';
   import post from '../posts';
 
   export default {
@@ -18,19 +19,14 @@
       const { id } = this.$route.params;
       this.post = post[ id ];
       this.text.subtitle = this.post.title;
-      fetch( '/file.html' )
-        .then( res => res.text() )
-        .then( ( res ) => {
-          console.debug( res );
-        } );
     },
     components: {
       ImageBlock,
-      PostCard,
+      PostContent,
     },
     data() {
       return {
-        post: [],
+        post: {},
         text: {
           title: 'Blog',
           subtitle: '',
@@ -41,6 +37,6 @@
 </script>
 
 <style lang="stylus" scoped>
-  .blog-page
+  .post-page
     background-color #f2f3f5
 </style>

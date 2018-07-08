@@ -9,8 +9,8 @@ const articles = [
     '<p> En primer lugar, a los 3 super ponentes que participaron en el evento. A nuestra querida <a href="https://www.linkedin.com/in/isamauny/">Isabel Mauny</a>, al gran "Kike" <a href="https://twitter.com/garcianavalon">@garcianavalon</a>, y a <a href="https://twitter.com/esStackOverflow">Juan Garza</a> que nos hizo ver las cosas desde otro punto de vista. <br>El feedback recibido fue muy bueno, ¡enhorabuena a los 3!</p>' +
     '<p> Por cierto, Isabel, ¡muchas gracias por sortear las botellas con la gente del público!, fue todo un detalle por parte de <a href="https://www.42crunch.com/">42Crunch</a> y a Juan Garza por regalar una camiseta de <a href="https://twitter.com/esStackOverflow">StackOverflow en Español</a>. </p>' +
     '<p> A toda la gente de <a href="#">OSW</a> ❤️ que desde el minuto uno estuvieron dispuestos a ayudarme con todo por iniciativa propia. </p>' +
-    '<p> <a href="https://twitter.com/Xexuline">Chechu</a>, <a href="https://twitter.com/lpez_elena">Elena</a>, <a href="https://twitter.com/ThunderVikki">Vicky</a> y <a href="https://twitter.com/MrCodeDev">José Luis</a>, el desayuno fue gracias a ellos. A (coding) <a href="https://twitter.com/CodingCarlos">Carlos</a>, mi hombre en los controles del sonido. A <a href="https://twitter.com/trigoporres">Santiago</a>, que me ayudó con la web cuando se me venía el tiempo encima. En general, a toda la gente de OSW que siempre está disponible. ' +
-    'Estuvieron comunidades como la de <a href="https://twitter.com/hackmadrid">HackMadrid</a>, <a href="https://twitter.com/PyLadiesMadrid">PyLadies Madrid</a>, <a href="https://twitter.com/blockMAD">BlockMAD</a></p>' +
+    '<p> <a href="https://twitter.com/Xexuline">Chechu</a>, <a href="https://twitter.com/lpez_elena">Elena</a>, <a href="https://twitter.com/ThunderVikki">Vicky</a> y <a href="https://twitter.com/MrCodeDev">José Luis</a>, el desayuno (entre otras cosas) fue gracias a ellos. A (coding) <a href="https://twitter.com/CodingCarlos">Carlos</a>, mi hombre en los controles del sonido. A <a href="https://twitter.com/trigoporres">Santiago</a>, que me ayudó con la web cuando se me venía el tiempo encima. En general, a toda la gente de OSW que siempre está disponible. ' +
+    'Además, tambien estuvieron presentes comunidades como la de <a href="https://twitter.com/hackmadrid">HackMadrid</a>, <a href="https://twitter.com/PyLadiesMadrid">PyLadies Madrid</a>, <a href="https://twitter.com/blockMAD">BlockMAD</a>, etc.</p>' +
     '<p>Agraceder también a <a href="https://twitter.com/CampusMadrid">Campus Madrid</a> como siempre su generosidad por cedernos el espacio para este tipo de eventos.</p>' +
     '<p>Y no me puedo olvidar de todos vosotros, los y las participantes / asistentes del evento. 🐶 ¡Dice <b>Rambo Mambo</b> que sois un público excelente!</p>' +
     '<p>A tod@s vosotr@s, muchas gracias. <br>🤔 ¿Nos veremos el año que viene? Tal vez...</p>',
@@ -26,13 +26,15 @@ const articles = [
   },
   {
     id: 1,
-    slug: 'slides-dev-journey-madrid-2018',
-    title: 'Slides del evento',
-    content: '<h4>Hola de nuevo!</h4><p>Desde </p>',
+    slug: 'primer-evento-dev-journey-madrid-2018',
+    title: 'Primer Evento: Dev Journey Madrid 2018',
+    content: '<p>Hola de nuevo compañeros. <br>' +
+    '¡Ya ha pasado un mes desde que nos vimos en Campus en el #DevJourneyMad18! <br>' +
+    'Quería compartir varias cosas con todos vosotros. Esto es lo que pasó en el primer Dev Journey Madrid (Ed. 2018). </p>',
     image: 'img.png',
     tags: [ 'rambo', 'cool' ],
     meta: {
-      description: '<p>todos... </p>',
+      description: '<p>Hola de nuevo compañeros. <br> ¡Ya ha pasado un mes desde que nos vimos en Campus en el #DevJourneyMad18! y quería compartir varias cosas con vosotros... </p>',
       published: '24/06/2018',
       authorName: 'Jorge Baumann',
       authorLink: 'https://twitter.com/baumannzone',

@@ -1,11 +1,11 @@
 <template>
   <article class="post-card mb-3">
     <div class="wrapper">
-      <div class="item item-1 cursor-hand">
+      <div class="item item-1">
         <img :src="getImgUrl(post)" alt="main" width="100%">
       </div>
       <div class="item item-2">
-        <h3 class="post-title cursor-hand mb-0">{{post.title}}</h3>
+        <h3 class="post-title mb-0">{{post.title}}</h3>
         <small class="post-meta">
           <span class="author">
             <a :href="post.meta.authorLink" target="_blank">{{ post.meta.authorName }}</a>
@@ -22,18 +22,14 @@
   export default {
     name: 'PostDetail',
     props: {
-      post: {
-        required: true,
-        type: Object,
-      },
+      post: { type: Object },
     },
     methods: {
       getImgUrl( post ) {
         // eslint-disable-next-line
-        return require( `../../assets/img/blog/${post.id}/${post.image}` );
+        return require( `../../../assets/img/blog/${post.id}/${post.image}` );
       },
     },
-    computed: {},
   };
 </script>
 

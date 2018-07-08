@@ -36,6 +36,8 @@
       background url("../assets/img/bg1.jpg") no-repeat center center
       -webkit-background-size: cover
       background-size: cover
+    &.bg-1
+      background-color #03b2f7
     &:after
       content ''
       position absolute
