@@ -19,7 +19,7 @@ const articles = [
     meta: {
       description: '<p>Por fin he sacado un ratito para poder escribir aquí. Este evento no hubiera sido posible sin todos vosotros. 😍' +
       '<br> Aunque la cabeza visible he sido yo, hay mucha gente que ha colaborado / ayudado de forma activa o pasiva para que esto fuera posible. Por eso, os quiero dar las gracias a todos... </p>',
-      published: '24/06/2018',
+      published: '06/07/2018',
       authorName: 'Jorge Baumann',
       authorLink: 'https://twitter.com/baumannzone',
     },
@@ -41,12 +41,12 @@ const articles = [
     '<p>Una vez finalizadas las charlas, dimos paso al "Networking & Beers 🍻" (cervezas y refrescos por cortesía de #OSW). Tuvimos tiempo de seguir debatiendo mientras picabamos algo.</p>' +
     '<p>Al final nos hicimos una <a href="https://twitter.com/baumannzone/status/1006091163701514241" target="_blank">foto muy molona</a> (aunque algunas personas ya se habian ido), uno de los mejores recuerdos de este DevJourneyMadrid 2018</p>' +
     '<div class="p-3 text-center"><img src="/img/blog/0/main.jpg" width="100%" alt="main"></div>' +
-    '<p>Para terminar, os dejo un link con algunas fotos del evento: <a href="https://photos.app.goo.gl/HWwTpg4ccTEzeSx37" target="_blank">Ver fotos</a></p>',
+    '<p>Para terminar, os dejo un link con algunas fotos del evento (<a href="https://photos.app.goo.gl/HWwTpg4ccTEzeSx37" target="_blank">ver fotos</a>). Si tienes alguna foto y la quieres compartir, ponte en contacto conmigo y actualizamos el álbum (enlaces en la <a href="/">página principal</a>) </p>',
     image: 'cover.png',
     tags: [ 'rambo', 'cool' ],
     meta: {
-      description: '<p>Hola de nuevo compañeros. <br> ¡Ya ha pasado un mes desde que nos vimos en Campus en el #DevJourneyMad18! y quería compartir varias cosas con vosotros... </p>',
-      published: '24/06/2018',
+      description: '<p>Hola de nuevo compañeros. <br> ¡Hace ya un mes que nos vimos en el <b>#DevJourneyMad18</b>!✌️, en Campus Madrid. <br> Quería compartir varias cosas con todos vosotros. Esto es un resumen de lo que pasó en el primer <b>Dev Journey Madrid 2018</b>.</p> <p>9 Junio de 2018, Rambo Mambo y yo preparados para la ocasión...',
+      published: '09/07/2018',
       authorName: 'Jorge Baumann',
       authorLink: 'https://twitter.com/baumannzone',
     },

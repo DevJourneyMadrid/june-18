@@ -2,8 +2,8 @@
   <div class="post-page">
     <ImageBlock :text="text" classImage="bg-1"/>
     <br>
-    <div class="container">
-      <PostContent class="p-2" :post="post"/>
+    <div class="container mt-3">
+      <PostContent :post="post"/>
     </div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <article class="post-card mb-3">
+  <article class="post-card mb-5">
     <div class="wrapper">
       <div class="item item-1 cursor-hand" @click="goTo(post)">
         <img :src="getImgUrl(post)" alt="main" width="100%">
