@@ -27,7 +27,7 @@
     methods: {
       getImgUrl( post ) {
         // eslint-disable-next-line
-        return require( `../../../assets/img/blog/${post.id}/${post.image}` );
+        return `/img/blog/${post.id}/${post.image}`;
       },
     },
   };

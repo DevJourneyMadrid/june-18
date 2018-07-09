@@ -3,7 +3,7 @@
     <ImageBlock :text="text" classImage="bg-1"/>
     <br>
     <div class="container">
-      <PostContent :post="post"/>
+      <PostContent class="p-2" :post="post"/>
     </div>
   </div>
 </template>
@@ -12,7 +12,7 @@
 <script>
   import ImageBlock from '@/components/ImageBlock.vue';
   import PostContent from './PostContent.vue';
-  import post from '../posts';
+  import post from '../../data/posts';
 
   export default {
     created() {

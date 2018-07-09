@@ -8,7 +8,7 @@
 
 <script>
   import ImageBlock from '@/components/ImageBlock.vue';
-  import posts from './posts';
+  import posts from '../../data/posts';
   import PostList from './PostList.vue';
 
   export default {
