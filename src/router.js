@@ -30,6 +30,10 @@ export default new Router( {
       path: '/blog/:id/:slug',
       name: 'post',
       component: Post,
+      beforeEnter( to, from, next ) {
+        window.scrollTo( 0, 0 );
+        next();
+      },
     },
     {
       path: '/about',
