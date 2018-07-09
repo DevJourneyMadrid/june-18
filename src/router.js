@@ -5,7 +5,7 @@ import Home from './views/Home/Index.vue';
 import About from './views/About/Index.vue';
 import Speakers from './views/Speakers/Index.vue';
 import Blog from './views/Blog/Index.vue';
-import Post from './views/Blog/Post/Index.vue';
+import Post from './views/Post/Index.vue';
 
 Vue.use( Router );
 
@@ -27,9 +27,13 @@ export default new Router( {
       component: Blog,
     },
     {
-      path: '/blog/:id',
+      path: '/blog/:id/:slug',
       name: 'post',
       component: Post,
+      beforeEnter( to, from, next ) {
+        window.scrollTo( 0, 0 );
+        next();
+      },
     },
     {
       path: '/about',

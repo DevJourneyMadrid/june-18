@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-light mb-0 mt-3">
+  <footer class="bg-light mb-0">
     <div class="container">
       <div class="links d-flex justify-content-center">
         <ul class="list-inline">
@@ -51,7 +51,7 @@
 
 <style lang="stylus" scoped>
   footer
-    border-top 5px solid #4dadf7
+    border-top 8px solid #4dadf7
     min-height 150px
     padding-top 20px
     padding-bottom 20px

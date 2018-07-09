@@ -1,11 +1,11 @@
 <template>
-  <article class="post-card mb-5">
+  <article class="post-card mb-3">
     <div class="wrapper">
-      <div class="item item-1 cursor-hand" @click="goTo(post)">
+      <div class="item item-1">
         <img :src="getImgUrl(post)" alt="main" width="100%">
       </div>
       <div class="item item-2">
-        <h3 class="post-title cursor-hand mb-0" @click="goTo(post)">{{post.title}}</h3>
+        <h3 class="post-title mb-0">{{post.title}}</h3>
         <small class="post-meta">
           <span class="author">
             <a :href="post.meta.authorLink" target="_blank">{{ post.meta.authorName }}</a>
@@ -13,9 +13,20 @@
           <span class="ml-2 mr-2">·</span>
           <span class="date">{{ post.meta.published }}</span>
         </small>
-        <div class="content mt-2" v-html="post.meta.description"></div>
-        <div class="d-flex justify-content-end">
-          <button class="btn btn-primary btn-sm" @click="goTo(post)">Ver más</button>
+        <div class="content mt-2" v-html="post.content"></div>
+        <div class="prev-next-buttons d-flex justify-content-between pt-4">
+          <button
+            type="button"
+            @click="emitEvent(prev)"
+            class="btn btn-sm btn-primary custom-size"
+            :disabled="prev.isDisabled">←
+          </button>
+          <button
+            type="button"
+            @click="emitEvent(next)"
+            class="btn btn-sm btn-primary custom-size"
+            :disabled="next.isDisabled">→
+          </button>
         </div>
       </div>
     </div>
@@ -23,22 +34,20 @@
 </template>
 <script>
   export default {
-    name: 'PostCard',
+    name: 'PostDetail',
     props: {
-      post: {
-        required: true,
-        type: Object,
-      },
+      post: { type: Object },
+      prev: { type: Object },
+      next: { type: Object },
     },
     methods: {
       getImgUrl( post ) {
         return `/img/blog/${post.id}/${post.image}`;
       },
-      goTo( { id, slug } ) {
-        this.$router.push( { name: 'post', params: { id, slug } } );
+      emitEvent( data ) {
+        this.$emit( 'eventaso', data );
       },
     },
-    computed: {},
   };
 </script>
 
@@ -72,4 +81,7 @@
         font-weight 500
         a
           color #4dadf7
+
+    .custom-size
+      width 50px;
 </style>

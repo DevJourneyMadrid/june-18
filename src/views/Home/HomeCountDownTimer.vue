@@ -36,7 +36,7 @@
           </h3>
           <p class="lead mb-0">Las fotos con Rambo 🐶 con el hashtag:</p>
           <h3>
-            <a href="">#RamboMabmboDJM18</a>
+            <a href="https://twitter.com/hashtag/RamboMamboDJM18?src=hash" target="_blank">#RamboMamboDJM18</a>
           </h3>
         </div>
       </template>
