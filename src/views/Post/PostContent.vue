@@ -14,6 +14,20 @@
           <span class="date">{{ post.meta.published }}</span>
         </small>
         <div class="content mt-2" v-html="post.content"></div>
+        <div class="prev-next-buttons d-flex justify-content-between pt-4">
+          <button
+            type="button"
+            @click="emitEvent(prev)"
+            class="btn btn-sm btn-primary custom-size"
+            :disabled="prev.isDisabled">←
+          </button>
+          <button
+            type="button"
+            @click="emitEvent(next)"
+            class="btn btn-sm btn-primary custom-size"
+            :disabled="next.isDisabled">→
+          </button>
+        </div>
       </div>
     </div>
   </article>
@@ -23,11 +37,15 @@
     name: 'PostDetail',
     props: {
       post: { type: Object },
+      prev: { type: Object },
+      next: { type: Object },
     },
     methods: {
       getImgUrl( post ) {
-        // eslint-disable-next-line
         return `/img/blog/${post.id}/${post.image}`;
+      },
+      emitEvent( data ) {
+        this.$emit( 'eventaso', data );
       },
     },
   };
@@ -63,4 +81,7 @@
         font-weight 500
         a
           color #4dadf7
+
+    .custom-size
+      width 50px;
 </style>

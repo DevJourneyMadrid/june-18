@@ -12,8 +12,8 @@ const articles = [
     '<p> <a href="https://twitter.com/Xexuline">Chechu</a>, <a href="https://twitter.com/lpez_elena">Elena</a>, <a href="https://twitter.com/ThunderVikki">Vicky</a> y <a href="https://twitter.com/MrCodeDev">José Luis</a>, el desayuno (entre otras cosas) fue gracias a ellos. A (coding) <a href="https://twitter.com/CodingCarlos">Carlos</a>, mi hombre en los controles del sonido. A <a href="https://twitter.com/trigoporres">Santiago</a>, que me ayudó con la web cuando se me venía el tiempo encima. En general, a toda la gente de OSW que siempre está disponible. ' +
     'Además, tambien estuvieron presentes comunidades como la de <a href="https://twitter.com/hackmadrid">HackMadrid</a>, <a href="https://twitter.com/PyLadiesMadrid">PyLadies Madrid</a>, <a href="https://twitter.com/blockMAD">BlockMAD</a>, etc.</p>' +
     '<p>Agraceder también a <a href="https://twitter.com/CampusMadrid">Campus Madrid</a> como siempre su generosidad por cedernos el espacio para este tipo de eventos.</p>' +
-    '<p>Y no me puedo olvidar de todos vosotros, los y las participantes / asistentes del evento. 🐶 ¡Dice <b>Rambo Mambo</b> que sois un público excelente!</p>' +
-    '<p>A tod@s vosotr@s, muchas gracias. <br>🤔 ¿Nos veremos el año que viene? Tal vez...</p>',
+    '<p>Y no me puedo olvidar de todos vosotros, los y las participantes / asistentes del evento. 🐶 ¡Dice Rambo Mambo que sois un público excelente!</p>' +
+    '<h5>A tod@s vosotr@s, muchas gracias.</h5>',
     image: 'main.jpg',
     tags: [ 'rambo', 'cool' ],
     meta: {
@@ -41,7 +41,8 @@ const articles = [
     '<p>Una vez finalizadas las charlas, dimos paso al "Networking & Beers 🍻" (cervezas y refrescos por cortesía de #OSW). Tuvimos tiempo de seguir debatiendo mientras picabamos algo.</p>' +
     '<p>Al final nos hicimos una <a href="https://twitter.com/baumannzone/status/1006091163701514241" target="_blank">foto muy molona</a> (aunque algunas personas ya se habian ido), uno de los mejores recuerdos de este DevJourneyMadrid 2018</p>' +
     '<div class="p-3 text-center"><img src="/img/blog/0/main.jpg" width="100%" alt="main"></div>' +
-    '<p>Para terminar, os dejo un link con algunas fotos del evento (<a href="https://photos.app.goo.gl/HWwTpg4ccTEzeSx37" target="_blank">ver fotos</a>). Si tienes alguna foto y la quieres compartir, ponte en contacto conmigo y actualizamos el álbum (enlaces en la <a href="/">página principal</a>) </p>',
+    '<p>Para terminar, os dejo un link con algunas fotos del evento (<a href="https://photos.app.goo.gl/HWwTpg4ccTEzeSx37" target="_blank">ver fotos</a>). Si tienes alguna foto y la quieres compartir, ponte en contacto conmigo y actualizamos el álbum (Twitter: <a href="https://twitter.com/baumannzone">@baumannzone</a>) </p>' +
+    '<h5>¡Nos vemos por las redes! 👋</h5>',
     image: 'cover.png',
     tags: [ 'rambo', 'cool' ],
     meta: {
