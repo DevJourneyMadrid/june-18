@@ -31,17 +31,18 @@ const articles = [
     content: '<p>Hola de nuevo compañeros. <br>' +
     '¡Hace ya un mes que nos vimos en el <b>#DevJourneyMad18</b>!✌️, en Campus Madrid. <br>' +
     'Quería compartir varias cosas con todos vosotros. Esto es un resumen de lo que pasó en el primer <b>Dev Journey Madrid 2018</b>.</p>' +
-    '<p>9 Junio de 2018, Rambo Mambo y yo preparados para la ocasión.' +
-    '<div class="p-3 text-center"><img src="/img/blog/1/1.png" height="200px" alt="1.png"></div>' +
-    'El día empezaba mejor de lo que podía imaginar, ¿sería casualidad que al aparcar en Campus Madrid me encontrara con esto? 🤔 <br>' +
-    '<div class="p-3 text-center"><img src="/img/blog/1/2.png" alt="matricula" height="200px"></div></p>' +
+    '<p>9 Junio de 2018, Rambo Mambo y yo preparados para la ocasión.</p>' +
+    '<div class="pb-2 text-center la-img"><img src="/img/blog/1/1.png" height="200px" alt="Baumann & Rambo"></div>' +
+    '<p>El día empezaba mejor de lo que podía imaginar, ¿sería casualidad que al aparcar en Campus Madrid me encontrara con esto? 🤔</p>' +
+    '<div class="pb-2 text-center la-img"><img src="/img/blog/1/2.png" height="200px" alt="Matricula"></div></p>' +
     '<p>No, no era casualidad. Era una señal de que todo iba a salir bien, ya que detrás de todo esto había muchas horas de trabajo y mucha <a href="/#/blog/0/gracias-por-todo" target="_blank">gente implicada</a>.</p>' +
     '<p>A las 10 de la mañana se abrieron las puertas y cogimos fuerzas con el desayuno patrocinado por Open Source Weekends. A continuación Rambo y yo os dimos la bienvenida al evento. (Puedes descargar las slides de nuestra presentación <a href="https://slides.com/baumannzone/devjourneymadrid18">aquí</a>)</p>' +
     '<p>Llegó el momento de los ponentes. Empezó Isabelle Mauny, continuó García Navalón y por último era el turno de Juan Garza. Sus charlas gustaron mucho a los asistentes 👏. Además hubo regalitos para algunos afortunados. (Aquí las pruebas: <a href="https://twitter.com/IvanDeAgueda/status/1005431933952806913">link1</a>, <a href="https://twitter.com/Xexuline/status/1005377680085340160">link2</a>)</p>' +
     '<p>Una vez finalizadas las charlas, dimos paso al "Networking & Beers 🍻" (cervezas y refrescos por cortesía de #OSW). Tuvimos tiempo de seguir debatiendo mientras picabamos algo.</p>' +
     '<p>Al final nos hicimos una <a href="https://twitter.com/baumannzone/status/1006091163701514241" target="_blank">foto muy molona</a> (aunque algunas personas ya se habian ido), uno de los mejores recuerdos de este DevJourneyMadrid 2018</p>' +
-    '<div class="p-3 text-center"><img src="/img/blog/0/main.jpg" width="100%" alt="main"></div>' +
-    '<p>Para terminar, os dejo un link con algunas fotos del evento (<a href="https://photos.app.goo.gl/HWwTpg4ccTEzeSx37" target="_blank">ver fotos</a>). Si tienes alguna foto y la quieres compartir, ponte en contacto conmigo y actualizamos el álbum (Twitter: <a href="https://twitter.com/baumannzone">@baumannzone</a>) </p>' +
+    '<div class="pb-2 text-center la-img2"><img src="/img/blog/0/main.jpg" alt="main"></div>' +
+    '<p>Para terminar, os dejo un link con algunas capturas del evento (<a href="https://photos.app.goo.gl/HWwTpg4ccTEzeSx37" target="_blank">ver fotos</a>). Si tienes alguna foto y la quieres compartir, ponte en contacto conmigo (<a href="https://twitter.com/baumannzone">@baumannzone</a>) y actualizamos el álbum 👏 </p>' +
+    '<p>¡Y esto es todo amigos! Si has llegado hasta aquí, ¡gracias! <br>En los próximos articulos, estarán disponibles para descargar las presentaciones de los ponentes.</p>' +
     '<h5>¡Nos vemos por las redes! 👋</h5>',
     image: 'cover.png',
     tags: [ 'rambo', 'cool' ],
