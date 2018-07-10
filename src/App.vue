@@ -35,3 +35,20 @@
     },
   };
 </script>
+
+<style lang="stylus">
+  .la-img img
+    height 200px
+  @media (max-width: 767.98px)
+    .la-img img
+      width 100%
+      height auto
+
+  .la-img2 img
+    max-height 500px
+    max-width 100%
+  @media (max-width: 767.98px)
+    .la-img2 img
+      width 100%
+      height auto
+</style>
