@@ -1,5 +1,5 @@
 # Dev Journey Madrid 
-Eventazo Junio #2018 - https://devjourneymad18.netlify.com/
+Eventazo Junio #2018 - 🦄 https://devjourneymad18.netlify.com/ 🦄
 
 ![djm18](./src/assets/img/main.png)
 
