@@ -1,5 +1,5 @@
 <template>
-  <header class="header" :class="classImage">
+  <header class="header" :style="[bgStyles]">
     <div class="title-container pl-4 pr-4">
       <h1 class="fw-900" v-if="text.title">{{ text.title }}</h1>
       <h2 v-if="text.subtitle">{{ text.subtitle }}</h2>
@@ -10,13 +10,43 @@
   export default {
     name: 'ImageBlock',
     props: {
-      classImage: {
+      imageName: {
         required: false,
         type: String,
       },
       text: {
         required: false,
         type: Object,
+      },
+      colorCode: {
+        required: false,
+        type: String,
+        default: '#03b2f7',
+      },
+    },
+    data() {
+      return {
+        styles: {
+          '-webkit-background-size': 'cover',
+          'background-size': 'cover',
+        },
+      };
+    },
+    computed: {
+      bgStyles() {
+        let obj = {};
+        if ( this.imageName ) {
+          obj = {
+            background: `url("/img/bg/${this.imageName}") no-repeat center center`,
+            ...this.styles,
+          };
+        }
+        else {
+          obj = {
+            background: this.colorCode,
+          };
+        }
+        return obj;
       },
     },
   };
@@ -32,12 +62,6 @@
       background url("../assets/img/bg1.jpg") no-repeat center center
       -webkit-background-size: cover
       background-size: cover
-    &.img2
-      background url("../assets/img/bg1.jpg") no-repeat center center
-      -webkit-background-size: cover
-      background-size: cover
-    &.bg-1
-      background-color #03b2f7
     &:after
       content ''
       position absolute

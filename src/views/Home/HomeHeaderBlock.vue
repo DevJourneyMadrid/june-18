@@ -8,7 +8,7 @@
       <div itemprop="location" itemscope itemtype="http://schema.org/Place">
         <span itemprop="name">Campus Madrid</span>
         <span class="mr-2 ml-2">-</span>
-        <span class="mr-2" itemprop="streetAddress">C/ Moreno Nieto 2</span>
+        <span class="mr-2" itemprop="streetAddress">C/ Moreno Nieto, 2</span>
         <span itemprop="addressLocality">(Madrid)</span>
       </div>
     </div>
