@@ -1,6 +1,6 @@
 <template>
   <header class="header" :style="[bgStyles]">
-    <div class="title-container pl-4 pr-4">
+    <div v-if="text" class="title-container pl-4 pr-4">
       <h1 class="fw-900" v-if="text.title">{{ text.title }}</h1>
       <h2 v-if="text.subtitle">{{ text.subtitle }}</h2>
     </div>

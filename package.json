@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
     "moment": "^2.22.1",
@@ -16,9 +18,14 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.15",
+    "@vue/cli-plugin-e2e-cypress": "^3.0.0-rc.9",
     "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
+    "@vue/cli-plugin-unit-jest": "^3.0.0-rc.9",
     "@vue/cli-service": "^3.0.0-beta.15",
     "@vue/eslint-config-airbnb": "^3.0.0-beta.15",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.0.1",
     "lint-staged": "^6.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
