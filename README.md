@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/DevJourneyMadrid/june-18.svg?branch=master)](https://travis-ci.org/DevJourneyMadrid/june-18)
 [![Known Vulnerabilities](https://snyk.io/test/github/DevJourneyMadrid/june-18/badge.svg?targetFile=package.json)](https://snyk.io/test/github/DevJourneyMadrid/june-18?targetFile=package.json)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/DevJourneyMadrid/june-18/pulls)
+![GitHub issues](https://img.shields.io/github/issues/DevJourneyMadrid/june-18.svg)
+
 
 
 # :dog: Dev Journey Madrid - Event Template :gem:
