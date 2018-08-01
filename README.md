@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/DevJourneyMadrid/june-18.svg?branch=master)](https://travis-ci.org/DevJourneyMadrid/june-18)
-# Dev Journey Madrid - Event Template 
+[![Known Vulnerabilities](https://snyk.io/test/github/DevJourneyMadrid/june-18/badge.svg?targetFile=package.json)](https://snyk.io/test/github/DevJourneyMadrid/june-18?targetFile=package.json)
+
+# :dog: Dev Journey Madrid - Event Template :gem:
 Used for the Dev Journey Madrid 2018 event - https://devjourneymad18.netlify.com/
 
 ![djm18](./src/assets/img/main.png)
