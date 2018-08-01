@@ -1,5 +1,6 @@
-# Dev Journey Madrid 
-Eventazo Junio #2018 - https://devjourneymad18.netlify.com/
+[![Build Status](https://travis-ci.org/DevJourneyMadrid/june-18.svg?branch=master)](https://travis-ci.org/DevJourneyMadrid/june-18)
+# Dev Journey Madrid - Event Template 
+Used for the Dev Journey Madrid 2018 event - https://devjourneymad18.netlify.com/
 
 ![gameboy](./src/assets/img/main.png)
 
