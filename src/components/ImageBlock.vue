@@ -1,5 +1,5 @@
 <template>
-  <header class="header" :style="[bgStyles]">
+  <header class="header" :style="[bgStyles, styles]">
     <div v-if="text" class="title-container pl-4 pr-4">
       <h1 class="fw-900" v-if="text.title">{{ text.title }}</h1>
       <h2 v-if="text.subtitle">{{ text.subtitle }}</h2>
@@ -34,11 +34,11 @@
     },
     computed: {
       bgStyles() {
+        // Image from `/public` folder
         let obj = {};
-        if ( this.imageName ) {
+        if ( this.imageName && this.imageName.trim() ) {
           obj = {
             background: `url("/img/bg/${this.imageName}") no-repeat center center`,
-            ...this.styles,
           };
         }
         else {

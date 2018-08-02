@@ -1,6 +1,6 @@
 <template>
   <div class="blog-page">
-    <ImageBlock :text="text" classImage="bg-1"/>
+    <ImageBlock :text="text"/>
     <PostList :posts="posts"/>
   </div>
 </template>
