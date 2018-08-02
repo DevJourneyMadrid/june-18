@@ -2,7 +2,7 @@
 # Dev Journey Madrid - Event Template 
 Used for the Dev Journey Madrid 2018 event - https://devjourneymad18.netlify.com/
 
-![gameboy](./src/assets/img/main.png)
+![djm18](./src/assets/img/main.png)
 
 #### Info
 > 📅 __Sábado 9 Junio 2018__  
@@ -20,3 +20,6 @@ Used for the Dev Journey Madrid 2018 event - https://devjourneymad18.netlify.com
 | 12:00 - 12:45 | Juan Garza - Stackoverflow en Español     |
 | 12:45 - 13:30 | Networking & Beers -                      |
 
+### Speed Coding Video:
+
+https://www.youtube.com/watch?v=Xi4vVTQ1ZMs
