@@ -33,9 +33,9 @@ describe( 'ImageBlock.vue', () => {
       { recived: 'image-name.jpg', expected: 'image-name.jpg' },
     ];
     const wrapper = shallowMount( ImageBlock );
-    testCases.map( ( data ) => {
+    testCases.forEach( ( data ) => {
       wrapper.setProps( { imageName: data.recived } );
-      return expect( wrapper.vm.bgStyles.background ).toMatch( data.expected );
+      expect( wrapper.vm.bgStyles.background ).toMatch( data.expected );
     } );
   } );
 } );
