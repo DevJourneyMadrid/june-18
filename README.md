@@ -2,6 +2,8 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/DevJourneyMadrid/june-18/badge.svg?targetFile=package.json)](https://snyk.io/test/github/DevJourneyMadrid/june-18?targetFile=package.json)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/DevJourneyMadrid/june-18/pulls)
 ![GitHub issues](https://img.shields.io/github/issues/DevJourneyMadrid/june-18.svg)
+[![Hacktoberfest][hacktoberfest-badge]][hacktoberfest]
+
 
 
 
@@ -29,3 +31,8 @@ Used for the Dev Journey Madrid 2018 event - https://devjourneymad18.netlify.com
 ### Speed Coding Video:
 
 https://www.youtube.com/watch?v=Xi4vVTQ1ZMs
+
+
+[hacktoberfest-badge]: https://img.shields.io/badge/hacktoberfest-%F0%9F%8E%83-fe962f.svg
+
+[hacktoberfest]: https://hacktoberfest.digitalocean.com
