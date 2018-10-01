@@ -6,7 +6,6 @@
 
 
 
-
 # :dog: Dev Journey Madrid - Event Template :gem:
 Used for the Dev Journey Madrid 2018 event - https://devjourneymad18.netlify.com/
 
@@ -26,7 +25,7 @@ Used for the Dev Journey Madrid 2018 event - https://devjourneymad18.netlify.com
 | 10:30 - 11:15 | Isabelle Mauny - La protección de APIs no es tan difícil...  |
 | 11:15 - 12:00 | Kike Garcia Navalón - Firestore en 45 min |
 | 12:00 - 12:45 | Juan Garza - Stackoverflow en Español     |
-| 12:45 - 13:30 | Networking & Beers -                      |
+| 12:45 - 13:30 | Networking & Beers                        |
 
 ### Speed Coding Video:
 
