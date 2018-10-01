@@ -32,5 +32,4 @@ Used for the Dev Journey Madrid 2018 event - https://devjourneymad18.netlify.com
 https://www.youtube.com/watch?v=Xi4vVTQ1ZMs
 
 [hacktoberfest-badge]: https://img.shields.io/badge/hacktoberfest-%F0%9F%8E%83-fe962f.svg
-
 [hacktoberfest]: https://hacktoberfest.digitalocean.com
