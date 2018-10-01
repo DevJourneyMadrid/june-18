@@ -21,7 +21,7 @@ Used for the Dev Journey Madrid 2018 event - https://devjourneymad18.netlify.com
 
 | Hora          | Sala - Auditorio Principal                |
 | ------------- | --------------------------------------    |
-| 10:00 - 10:20 | Entrada y Desayuno                        |
+| 10:00 - 10:20 | Entrada y desayuno                        |
 | 10:20 - 10:30 | Bienvenida                                |
 | 10:30 - 11:15 | Isabelle Mauny - La protección de APIs no es tan difícil...  |
 | 11:15 - 12:00 | Kike Garcia Navalon - Firestore en 45 min |
